@@ -1,11 +1,11 @@
 ---
-title: "Title"
+title: "Partição da diversidade de peixes na calha principal do Rio Parnaíba PI/MA"
 subtitle: |
   Subtitle 1<br>
   OR<br>
   Subtitle 2
 author:
-  - name: Steve Purves
+  - name: Juan Alves Pereira
     orcid: 0000-0002-0760-5497
     corresponding: true
     email: steve@curvenote.com
@@ -15,13 +15,13 @@ author:
       - Software
       - Visualization
     affiliations:
-      - Curvenote
-  - name: Rowan Cockett
+      - Programa de Pós-Graduação em Ecologia e Conservação – PPGEC, Rua Baraúnas, 351 - Complexo Três Marias, Prédio de Biologia, Térreo - Salas 08 e 09 - Campina Grande, PB, Brazil.
+  - name: Elvio Sergio Figueredo Medeiros
     orcid: 0000-0002-7859-8394
     corresponding: false
     roles: []
     affiliations:
-      - Curvenote
+      - Grupo de Ecologia de Rios do Semiárido, Laboratório de Ecologia, Departamento de Ciências Biológicas, Universidade Estadual da Paraíba – UEPB, Campus V, Rua Horácio Trajano de Oliveira, S/N, Cristo, CEP 58071-470, João Pessoa, PB, Brazil.
 keywords:
   - La Palma
   - Earthquakes
@@ -65,65 +65,3117 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Introduction
+# Introdução
 
 The scientific research follows the model shown in the figured cross-referenced here (@fig-pesquisa).
 
-# Material and Methods
+# Materiais e métodos
 
-Data and methods are discussed in @sec-data-col. This citation will appear in the bibliography section (@gouveia2017; @medeiros2008).
+## Área de estudo e desenho amostral
 
-## Study Area and Sampling Design
+This study was conducted in the Guaribas Biological Reserve (REBIO Guaribas), a protected area of Atlantic Forest in northeastern Brazil. This protected area is located in a transitional zone between the Caatinga and Atlantic Forest ecoregions. The land use of the study area is based on the occupation of traditional human populations and an increasing use of land for large scale monocultures, mostly sugar cane [@heinrichs2017]. Other than these, small scale agricultural activities, fishing, and the modification of the natural vegetation for livestock are important anthropogenic pressures that affect the buffer zone of the REBIO [@arruda2013; @mma2026]. Other common uses of the soil in the area are, coconut plantations, orchards and subsistence agriculture. These land uses represent important sources of pollution, either through agrochemicals runoff or direct and indirect domestic effluents (such as septic tanks). These nonpoint source pollutants contaminate underground water and create a spatial gradient of environmental disturbance [@mehla2026]. Therefore, the mainly rural nature of the land use associated with the management of vegetation, will cause direct impact to aquatic systems, by the siltation of streams and contamination of groundwater. The hydrographic network of the study region is composed predominantly of small catchments containing first- and second-order streams [@strahler1957 classification] (@fig-mapa). These watercourses are tributaries of the Camaratuba River and are sustained by numerous springs distributed throughout the region. The two main stream systems in the study area are the Barro Branco and Caiana catchemnts. The Barro Branco stream is approximately 8.8 km long and originates within the protected area. Its upper section remains within the boundaries of the REBIO, whereas its middle and lower sections extend into the surrounding landscape. Despite this transition, riparian vegetation is preserved along most of the stream. The Caiana stream is approximately 9.8 km long and also originates within the REBIO, although most of its course lies outside the protection area.
 
-See publications by @gouveia2017.
+The climate in the region is classified as As' [@peel2007], characterized by a mean annual temperature of approximately 25 °C, with maximum temperatures occurring mainly between February and March, during the dry period, as well as by low annual thermal amplitude. Annual precipitation ranges from 1,400 to 1,800 mm, concentrated between March and July, whereas the lowest rainfall levels occur between September and December. In the study area, rainfall is concentrated between March and July, beginning in autumn and extending into winter. This pattern is attributed to the influence of cold air masses from the South Atlantic ocean that affect the region. The hydrographic network is composed of small headwater streams fed by rain [@gouveia2017].
 
-## Data Collection {#sec-data-col}
+A total of 15 sampling sites distributed longitudinally across the two Atlantic Forest streams were selected to capture spatial variation in environmental conditions and habitat characteristics. The Barro Branco stream included sampling sites located within a protected area (REBIO Guaribas) and sites located outside its boundaries, whereas all sampling sites in the Caiana stream were located outside the protected area. This sampling design allowed the assessment of zooplankton diversity across nested spatial scales and contrasting conditions of environmental protection and human influence (@fig-mapa). Sampling included temporal (dry and wet seasons) and spatial scales. The spatial scales of zooplankton diversity were represented by the total gamma (γ) diversity, encompassing both study streams. At each stream, several sites were selected according to their position in the main channel of the catchment basin and, at each site, three habitas were sampled to represent different habitat types (pool, riffle, near underwater structures) [@frissell1986]. We also considered a further spatial scale being the upper reaches (portion of the Barro Branco stream within the conservation unit and the Caiana stream before its confluence with the Pipina stream) and the lower reaches (portion of the Barro Branco stream outside the conservation unit and the Caiana stream after its confluence with the Pipina stream) (@fig-mapa). Sampling was conducted during the dry (January-February) and wet (June-July) seasons of 2024.
 
-See publications by @macêdo2019.
+```{r RESULTS-SITE_TYPES-en}
+#| eval: false
+#| include: false
 
-## Statistical Analyses
+<!--# For comparative purposes, sampling sites were assigned a priori to one of four environmental categories based on their location relative to the protected area and their expected environmental conditions (@fig-refsites). Type I sites, considered reference sites for this study, were located within the protected area and were expected to represent the best-preserved conditions. These sites were characterized by well-preserved riparian vegetation and the absence of agricultural fields within a 1-km radius. They were also expected to meet the following environmental criteria: mean water temperature ≤ 28 °C, mean dissolved oxygen concentration ≥ 6 mg/L, mean water velocity ≥ 0.025 m/s, and mean turbidity ≤ 15 NTU. Type II sites were also located within the protected area but were expected to show some degree of environmental alteration. This category included sites located close to agricultural areas or sites that failed to meet one or more of the environmental or hydrological criteria established for Type I sites. Type III sites were located outside the protected area but were expected to maintain relatively favorable water-quality conditions, broadly comparable to those observed at reference sites. However, because these sites were situated outside the REBIO, they were not expected to satisfy the criteria related to intact riparian vegetation or a minimum distance of 1 km from agricultural fields. Finally, Type IV sites were located outside the protected area and were characterized by evidence of environmental disturbance. These sites did not meet at least one of the water-quality criteria established for reference sites and showed alterations in habitat characteristics relative to Type I sites. As with Type III sites, the criteria concerning riparian forest integrity and distance from agricultural fields were not met for this category because these sites were intentionally selected outside the REBIO. The classification was subsequently evaluated and confirmed using environmental measurements collected in situ.
+-->
+```
 
-Here you can add your statistical analyses and follow the text with the RStudio code. Following the model in <https://elviomedeiros.github.io/Bentos2006_Q/>.
+## Coleta de dados ambientais
 
-```{r, CHUNK-TITLE}
+<!--#  To evaluate whether the a priori classification of sampling sites into Types I–IV was supported by quantitative environmental information,-->
+
+Environmental conditions were characterized using four groups of variables, following procedures adapted by @medeiros2008 from the protocols proposed by @pusey2004 and @mugodo2006: physicochemical water quality, stream site morphology, substrate composition, and marginal habitat structure. Water quality was characterized using physical and chemical measurements obtained with portable instruments, including water temperature (°C) and dissolved oxygen concentration (mg/L). Turbidity was subsequently measured in the laboratory with a turbidimeter using water samples collected at each sampling site. Current velocity (m/s) was estimated using the float method, as described by @maitland1990. Morphological characteristics were assessed from three randomly selected transects at each site, where stream width (cm) and water depth (cm) were measured. Bank slope was classified into four categories according to its inclination: 1, ≤ 20°; 2, \> 20–30°; 3, \> 30–50°; and 4, \> 50°. Broader-scale landscape characteristics, including elevation and stream length, were obtained from handheld GPS records and satellite imagery. Substrate composition and the physical structure of marginal habitats were evaluated from 9 to 12 quadrats (1 m²) distributed along the terrestrial-aquatic interface at each sampling site. Within each quadrat, the proportional cover of different substrate categories was visually estimated, including mud, sand, cobbles, fine and coarse gravel and rocks. The same quadrats were used to characterize littoral and submerged habitat features. Recorded habitat components included macrophytes, marginal grasses, leaf litter, attached and filamentous algae, overhanging and submerged vegetation, small and large woody debris, and root masses [@medeiros2008]. For subsequent analyses and presentation, environmental measurements were summarized as mean values for each sampling site.
+
+Three 250 mL replicate samples of water from each site were taken and refrigerated for concentration analysis (μg L⁻¹) of ammonia, nitrite, nitrate, orthophosphate (soluble reactive phosphorus) and total phosphorus. Nutrient concentrations were obtained based on Standard Methods for the Examination of Water [@apha1998] and @mackereth1978.
+
+## Amostragem de peixes
+
+Zooplankton was sampled at habitats within each sampling site, hereafter referred to as habitat samples. Collections were performed in the main channel of the streams at the surface water. At each sampling habitat, a plankton net (30 cm mouth diameter, 70 cm length, and 60 μm mesh size) was used to filter 50 L of water. The net was rinsed between successive samples to prevent clogging and carryover of organisms. Each sample was concentrated to a final volume of 80 mL for laboratory analyses. Following collection, zooplankton samples were anesthetized with commercial sparkling water and subsequently preserved in 4% formalin [@epa2020]. Sucrose was added to the preserved sample to prevent female cladocerans from losing eggs and to minimize carapace distortion [@haney1973]. In the laboratory, samples had their zooplankton identified and counted using a Sedgewick–Rafter counting chamber. The analyses focused on representatives of Rotifera, Cladocera, and Copepoda. Taxonomic identification was based on specialized literature and confirmed by specialists. To evaluate whether the sampling effort adequately represented the zooplankton assemblage, species accumulation curves were calculated [@lucena2015; @melo2014].
+
+## Análises estatísticas
+
+Environmental variables<!--# AMBIENTAIS --> were screened for multicollinearity and to identify redundant descriptors. Variables representing similar environmental information were also combined when appropriate, thereby reducing redundancy in the dataset [@legendre1998].
+
+```{r ZOOREBIO23_PART-ORG}
 #| eval: false
 #| message: false
 #| warning: false
 #| results: false
-#| echo: true
-#| purl: false
 #| code-fold: true
 #| code-overflow: wrap
-#| code-summary: "Code: Summary"
+#| code-summary: "Code: Importing and organizing data"
 
-plot(1:10)
+#ZOOREBIO23_PART - ORGANIZANDO DADOS AMBIENTAIS----
+#####....----
+
+dev.off() #apaga os graficos, se houver algum
+rm(list=ls(all=TRUE)) #limpa a memória
+cat("\014") #limpa o console
+
+##CARREGANDO MATRIZES BRUTAS----
+
+library(openxlsx)
+habitat <- read.xlsx("dados/rebio23-habitat.xlsx",
+                    rowNames = T,
+                    colNames = T,
+                    sheet = "ambiente",
+                    startRow = 2)
+
+# List columns with at least one NA
+colnames(habitat)[colSums(is.na(habitat)) > 0]
+# Identify columns containing only NA values
+all.na <- names(habitat)[colSums(!is.na(habitat)) == 0]
+all.na <- c(all.na, "w.Temp_C", "w.DO_mg.L")
+#all.na <- c(all.na, "n.Ammonia_NH3_ug.L", "n.Nitrite_NO2_ug.L",
+#            "n.Nitrate_NO3_ug.L", "n.Orthophosphate_SRP_ug.L",
+#            "n.Phosphorus_TP_ug.L")
+# Remove those columns by name
+m_hab_part <- habitat[, !names(habitat) %in% all.na, drop = FALSE]
+# Removendo linhas por nome
+rownames(m_hab_part)
+del_rows <- c("C-C-P11-H1", "C-C-P11-H2", "C-C-P11-H3",
+              "S-C-P11-H1", "S-C-P11-H2", "S-C-P11-H3")
+del_rows
+m_hab_part <- m_hab_part[!(row.names(m_hab_part) %in% c(del_rows)),]
+m_hab_part
+# List columns with at least one NA
+colnames(m_hab_part)[colSums(is.na(m_hab_part)) > 0]
+#rownames(m_hab_part)[is.na(m_hab_part$m.Width_m)]
+# Remove columns with at least one NA
+m_hab_part <- m_hab_part[, colSums(is.na(m_hab_part)) == 0, drop = FALSE]
+
+###REMOVENDO COLUNAS ZERADAS DE HABITAT----
+
+sum <- colSums(m_hab_part)
+sum
+zero_sum <- names(which(colSums(m_hab_part) == 0))
+zero_sum #nomes das colunas zeradas
+m_part_cols <- m_hab_part[(colSums(m_hab_part) != 0)] #em != a exclamação inverte o sentido
+zero_sum2 <- names(which(colSums(m_part_cols) == 0))
+zero_sum2 #nomes das colunas zeradas
+sum<-colSums(m_part_cols)
+sum
+
+t_grps <- read.xlsx("dados/rebio23-habitat.xlsx",
+                   rowNames = T,
+                   colNames = T,
+                   sheet = "grupos",
+                   startRow = 2)
+
+###REMOVENDO LINHAS ZERADAS DE GRUPOS----
+
+rownames(t_grps)
+del_rows
+t_grps <- t_grps[!(row.names(t_grps) %in% c(del_rows)),]
+t_grps
+
+###SEPARANDO NUTRIENTES----
+
+nutri <- grep("^n\\.", colnames(habitat), value = TRUE)
+nutri
+nutrientes <- habitat[, nutri, drop = FALSE]
+nutrientes <- nutrientes[, colSums(!is.na(nutrientes)) > 0, drop = FALSE]
+nutrientes <- na.omit(nutrientes)
+
+##SALVANDO MATRIZES FINAIS----
+
+write.table(m_part_cols, "res_ms/m_hab_part.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+write.table(nutrientes, "res_ms/t_nutri.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+write.table(t_grps, "res_ms/t_grps.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+t_nutri <- read.csv("res_ms/t_nutri.csv",
+                  sep = ";", dec = ".",
+                  row.names = 1,
+                  header = TRUE,
+                  na.strings = NA)
+m_hab <- read.csv("res_ms/m_hab_part.csv",
+                  sep = ";", dec = ".",
+                  row.names = 1,
+                  header = TRUE,
+                  na.strings = NA)
+
+#ZOOREBIO23_PART - ORGANIZANDO DADOS DA COMUNIDADE----
+#####....----
+
+dev.off() #apaga os graficos, se houver algum
+rm(list=ls(all=TRUE)) #limpa a memória
+cat("\014") #limpa o console
+
+library(openxlsx)
+
+##CARREGANDO MATRIZES BRUTAS----
+
+densidade <- read.xlsx("dados/rebio23-zoopl.xlsx",
+                   rowNames = T,
+                   colNames = T,
+                   sheet = "densidade_hab_indL")
+densidade[1:5,1:5] #[1:5,1:5] mostra apenas as linhas e colunas de 1 a 5.
+
+##COLUNAS ZERADAS DE DENSIDADE----
+sum <- colSums(densidade)
+sum
+zero_sum <- names(which(colSums(densidade) == 0))
+zero_sum #nomes das espécies zeradas
+m_part_cols <- densidade[(colSums(densidade) != 0)] #em != a exclamação inverte o sentido
+zero_sum2 <- names(which(colSums(m_part_cols) == 0))
+zero_sum2 #nomes das espécies zeradas
+sum<-colSums(m_part_cols)
+sum
+
+###LINHAS ZERADAS DE DENSIDADE----
+m_part2 <- as.data.frame(t(m_part_cols))
+sum <- colSums(m_part2)
+sum
+zero_sum <- names(which(colSums(m_part2) == 0))
+zero_sum #nomes das espécies zeradas
+m_part_rows <- m_part2[(colSums(m_part2) != 0)] #em != a exclamação inverte o sentido
+zero_sum2 <- names(which(colSums(m_part_rows) == 0))
+zero_sum2 #nomes das espécies zeradas
+sum<-colSums(m_part_rows)
+sum
+m_dens <- as.data.frame((t(m_part_rows)))
+
+##SALVANDO MATRIZES FINAIS REMOVIDAS AS LINHAS/COLUNAS ZERADAS----
+
+write.table(m_dens, "res_ms/m_dens.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_dens <- read.csv(res_ms/"m_dens.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+#ZOOREBIO23_PART - MATRIZ DE CONTAGEM----
+#####....----
+
+library(openxlsx)
+contagem <- read.xlsx("dados/rebio23-zoopl.xlsx",
+                      rowNames = T,
+                      colNames = T,
+                      sheet = "rebio23_80ml",
+                      startRow = 4)
+contagem[1:5,1:5] #[1:5,1:5] mostra apenas as linhas e colunas de 1 a 5.
+
+###COLUNAS ZERADAS DE CONTAGEM----
+sum <- colSums(contagem)
+sum
+zero_sum <- names(which(colSums(contagem) == 0))
+zero_sum #nomes das espécies zeradas
+m_part_cols <- contagem[(colSums(contagem) != 0)] #em != a exclamação inverte o sentido
+zero_sum2 <- names(which(colSums(m_part_cols) == 0))
+zero_sum2 #nomes das espécies zeradas
+sum<-colSums(m_part_cols)
+sum
+
+###LINHAS ZERADAS DE CONTAGEM----
+m_part2 <- as.data.frame(t(m_part_cols))
+sum <- colSums(m_part2)
+sum
+zero_sum <- names(which(colSums(m_part2) == 0))
+zero_sum #nomes das espécies zeradas
+m_part_rows <- m_part2[(colSums(m_part2) != 0)] #em != a exclamação inverte o sentido
+zero_sum2 <- names(which(colSums(m_part_rows) == 0))
+zero_sum2 #nomes das espécies zeradas
+sum<-colSums(m_part_rows)
+sum
+m_cont <- (t(m_part_rows))
+m_cont
+sum(m_cont)
+ncol(m_cont)
+
+##SALVANDO MATRIZ FINAL DE CONTAGEM----
+
+write.table(m_cont, "res_ms/m_cont.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_cont <- read.csv("res_ms/m_cont.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_cont
+
+#ZOOREBIO23_PART - ORGANIZANDO ESCALAS DA COMUNIDADE----
+#####....----
+
+dev.off() #apaga os graficos, se houver algum
+rm(list=ls(all=TRUE)) #limpa a memória
+cat("\014") #limpa o console
+
+library(openxlsx)
+
+##CARREGANDO MATRIZES BRUTAS----
+
+escalas <- read.xlsx("dados/rebio23-zoopl.xlsx",
+                   rowNames = T,
+                   colNames = T,
+                   sheet = "escalas_final",
+                   startRow = 2)
+
+rownames(escalas)
+del_rows <- c("C-C-P11-H1", "C-C-P11-H2", "C-C-P11-H3", "S-C-P11-H1", "S-C-P11-H2", "S-C-P11-H3")
+del_rows
+escalas <- escalas[!(row.names(escalas) %in% c(del_rows)),]
+
+write.table(escalas, "res_ms/m_esc.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_esc <- read.csv("res_ms/m_esc.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_esc
 ```
 
-# Results
+```{r ENV-REBIO23_PART-CORR}
+#| eval: false
+#| message: false
+#| warning: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Correlations of environment data" 
 
-The results section should follow the model in <https://elviomedeiros.github.io/Bentos2006_Q/>.
+#REBIO23-part----
 
-## Environmental variables
+##ORGANIZANDO DADOS----
 
-## Community structure
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
 
-# Discussion
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_hab <- read.csv("res_ms/m_hab_part.csv",
+                  sep = ";", dec = ".",
+                  row.names = 1,
+                  header = TRUE,
+                  na.strings = NA)
 
-# Conclusions {.unnumbered}
+##CORRELOGRAMA E REMOÇÃO DE VARIÁVEIS REDUNDANTES OU DESNECESSÁRIAS----
 
-# Acknowledgements {.unnumbered}
+library(psych)
+colnames(m_hab)
+#png("res_ms/fig-h.hab_pairs.png")
+pairs.panels(m_hab[,1:8],
+             method = "pearson", # correlation method
+             scale = FALSE, lm = FALSE,
+             hist.col = "#00AFBB", pch = 19,
+             density = TRUE,  # show density plots
+             ellipses = TRUE, # show correlation ellipses
+             alpha = 0.5)
+#dev.off()
+
+cor <- cor(m_hab)
+cor
+
+library(corrplot)
+#png("res_ms/fig-hab_corrplot.png")
+corrplot(cor, method = "circle")
+#dev.off()
+
+##DELETANDO COLINEARES OU INDESEJADAS----
+
+#sink(file = "res_ms/colineares.txt", append = F, split = T)
+colnames(m_hab)
+del_cols <- c("", "")
+#del_cols <- grep("^n\\.", colnames(m_hab), value = TRUE)
+m_hab_part <- m_hab[, !(colnames(m_hab) %in% del_cols)]
+
+##SOMANDO REDUNDANTES----
+
+m_hab_part$h.Algae <- m_hab_part$h.Algae_f + m_hab_part$h.Algae_a
+m_hab_part <- m_hab_part[, !(colnames(m_hab_part)
+                           %in% c("h.Algae_f", "h.Algae_a"))]
+m_hab_part$h.Debris <- m_hab_part$h.Debris_l + m_hab_part$h.Debris_s
+m_hab_part <- m_hab_part[, !(colnames(m_hab_part)
+                         %in% c("h.Debris_l", "h.Debris_s"))]
+
+colnames(m_hab_part)
+m_hab_part
+#sink()
+
+write.table(m_hab_part, "res_ms/m_hab_part.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_hab_part <- read.csv("res_ms/m_hab_part.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+```
+
+```{r ENV-REBIO23_PART-CORR_TEST}
+#| eval: false
+#| message: false
+#| warning: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Correlations tests of environment data" 
+
+colnames(m_hab_part)
+library(PerformanceAnalytics)
+chart.Correlation(m_hab_part[, c(1:20)], histogram=TRUE)
+# ***p<0.001, **p<0.01, *p<0.05, .p<0.10
+
+library(Hmisc)
+mat <- as.matrix(m_hab_part[, 1:20])
+res <- rcorr(mat, type = "pearson")
+cor_mat <- res$r
+p_mat   <- res$P
+
+stars <- ifelse(p_mat < 0.001, "***",
+         ifelse(p_mat < 0.01,  "**",
+         ifelse(p_mat < 0.05,  "*", "")))
+
+cor_star <- ifelse(p_mat < 0.05,
+                   paste0(round(cor_mat, 2), stars),
+                   NA)
+
+cor_star <- matrix(
+  cor_star,
+  nrow = nrow(cor_mat),
+  dimnames = dimnames(cor_mat)
+)
+
+cor_star[upper.tri(cor_star, diag = TRUE)] <- NA
+cor_star <- noquote(cor_star)
+print(cor_star, na.print = "")
+```
+
+```{r ENV-PCA-ORG}
+#| eval: false
+#| message: false
+#| warning: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Organizing Environment data PCA"
+
+#PCA fviz package----
+#browseURL("https://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/")
+
+#ORGANIZANDO DADOS----
+
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
+
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_hab_part <- read.csv("res_ms/m_hab_part.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+
+colnames(m_hab_part)
+
+###RELATIVIZAÇÕES E TRANSFORMAÇÕES----
+library(vegan)
+library(tidyverse)
+
+# Selecionando variáveis que começam com "w" ou "m"
+m_wm <- m_hab_part[, grep("^(w|m)", colnames(m_hab_part))]
+
+# Selecionando variáveis que começam com "s" ou "h"
+m_sh <- m_hab_part[, grep("^(s|h)", colnames(m_hab_part))]
+
+# Removendo os dois primeiros caracteres dos nomes das colunas
+colnames(m_wm) <- sub("^..", "", colnames(m_wm))
+colnames(m_sh) <- sub("^..", "", colnames(m_sh))
+
+# Transformações
+m_wm <- sqrt(m_wm)
+m_sh <- asin(sqrt(decostand(m_sh, method = "total", MARGIN = 2)))
+
+# Juntando tudo em uma única tabela
+hab_trns <- cbind(m_sh, m_wm)
+
+# Salvado m_hab_trns
+write.table(hab_trns, "res_ms/m_hab_trns.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_hab_trns <- read.table("res_ms/m_hab_trns.csv",
+                         sep = ";", dec = ".",
+                         row.names = 1,
+                         header = TRUE,
+                         na.strings = NA)
+```
+
+These data were then analyzed using Principal Component Analysis (PCA) to summarize multivariate patterns of environmental variation among sampling sites. Prior to PCA, site morphology and water-quality variables were square-root transformed [@sokal1995]. Variables describing sediment composition and marginal habitat structure, expressed as percentages, were relativized by their column totals and subsequently subjected to the arcsine square-root transformation [@mccune2002]. PCA was conducted in R using the `FactoMineR` package [@lê2008], with all variables centered and standardized to unit variance before analysis. The water quality parameters temperature and dissolved oxygen, and all nutrients were used to characterize differences between streams but were not used in the PCA because they were not measured for both seasons.A Permutational Multivariate Analysis of Variance (PERMANOVA, 999 permutations) was performed to test whether the overall set of environmental variables measured differed across the seasons and streams .
+
+To compare the diversity of zooplankton taxa between streams, the Chao1 estimated richness (± SE) and the curves of rarefied and extrapolated richness were generated (95% upper and lower confidence intervals) using individual-based rarefaction curves [@gotelli2001; @freiry2020]. Community composition and environmental variables were compared among hydrological periods and streams using Permutational Multivariate Analysis of Variance (PERMANOVA), based on a Bray–Curtis dissimilarity matrix [@freiry2020; @anderson2013]. The model included the fixed factors Season, Stream and their interaction. The significance of the terms was assessed using 999 random permutations and the *pseudo*-F statistic [@anderson2001]. <!--# Homogeneity of multivariate dispersion among groups was assessed based on the distance of each sampling unit from the centroid of its respective group in multivariate space, using the betadisper function from the ´vegan´ package (Anderson et al., 2006) -->
+
+```{r METHODS-UNIVAR-en}
+#| eval: false
+#| include: false
+
+<!--# ####UNIVARIADAS#### -->Zooplankton diversity was characterized using species richness (R) and Shannon's density (D) [@magurran2013]. Species richness was calculated as the number of species recorded in each sample, whereas density was expressed as the number of individuals per liter (ind./L) [@bowen2017; @silva2017]. Variation in richness and density was evaluated using factorial analysis of variance (ANOVA) followed by post hoc multiple comparisons using Tukey’s HSD test ($\alpha = 0.05$) [@zar2010]. Density was square root transformed to enhance normality and homogeneity of variances [@sokal1995] and species richness was corrected based on rarefied analyses for the average number of individuals from all sites [@chao2014; @medeiros2024]. <!--# ####REGRESSÃO MÚLTIPLA#### -->Each observation was classified according to three factors: river reach (three levels), habitat (three levels), and hydrological season (wet and dry). The analysis initially considered the full factorial model. When significant interactions were detected, higher-order interactions were examined first, followed by the corresponding two-way interactions (reach × season, reach × habitat, and season × habitat) and, subsequently, the main effects. Response variables were transformed using log10(x+1) to improve compliance with assumptions of normality and homogeneity of variances [@sokal1995]. Differences among factor levels were subsequently investigated using Tukey's HSD test at $\alpha = 0.05$.
+```
+
+Differences<!--# CLASSIFICAÇÃO --> in assemblage composition across the spatial hierarchy and seasons were explored using the Unweighted Pair Group Method with Averages (UPGMA) [@belbin1993; @ávila2011], based on Bray-Curtis dissimilarities calculated from the zooplankton density matrix [@ávila2011]. Prior to the analyses, density data were relativized and square-root transformed to reduce the influence of highly abundant taxa and improve the distributional properties of the dataset [@rocha2012]. To focus on spatial variation across sampling sites, habitat density data were pooled for this analysis. <!--# COEFICIENTES --> To assess how well the UPGMA dendrograms represented the original Bray-Curtis dissimilarities among sampling sites, the Cophenetic Correlation Coefficient (CC) was calculated [@sneath1973; @sokal1962; @saraçli2013], where a cophenetic matrix was constructed from each seasonal dendrogram using the *cophenetic* function in the `vegan` package in R [@oksanen2020] . The cophenetic distance matrix was then correlated with the corresponding original Bray-Curtis dissimilarity matrix using Pearson's product-moment correlation coefficient [@farris1969; @silva2013; @sokal1962]. To evaluate the strength of the hierarchical clustering structure obtained from the UPGMA dendrograms, the Agglomerative Coefficient (AC) was calculated for each season using the *coef.hclust* function from the `cluster` package in R [@maechler2026; @kaufman1990]. The AC ranges from 0 to 1, where values closer to 1 indicate a strong, well-defined clustering structure and values near 0 reflect weak or indistinct grouping.
+
+Additive diversity partitioning<!--# PARTIÇÃO --> was used to quantify the contribution of within- and between-unit diversity to total zooplankton diversity. In this framework, alpha diversity ($\alpha$) represents diversity occurring within sampling units, whereas beta diversity ($\beta$) represents the contribution of differences among units at successive levels of the spatial hierarchy [@lande1996; @crist2003]. The hierarchical structure included three spatial scales. The finest scales consisted of the habitat samples within each site (n = 3), and of each site (n = 6, for the Barro Branco stream, and n = 9, for the Caiana stream). The intermediate scales corresponded to the upper and lower stream sections (n = 2), whereas the broadest scale represented differences among the two streams. Accordingly, the total diversity ($\gamma$) was decomposed into within-habitat diversity ($\alpha_{1}$) and the successive beta components associated with differences among habitats ($\beta_{1}$), among sites withing upper and lower stream reaches ($\beta_{2}$), and among streams ($\beta_{3}$). The contribution of each component was expressed as a percentage of total diversity [@crist2003; @farias2020]. To investigate seasonal variation in the hierarchical structure of diversity, additive partitioning was performed separately for each season and for each stream [@farias2020; @melo2013].
+
+The overall diversity<!--# INTERPRETAÇÃO --> was taken to be the sum of the relative contributions of each scale in the hierarchical sampling design. Analysis of significance of the contribution of each hierarchical level was performed through with individual-based randomizations (type I null model) [see @freiry2020; @melo2013]. The randomization process was repeated 999 times to obtain null distributions of the $\alpha$ and $\beta$ diversity at each hierarchical level, and used to test whether the observed values were higher or lower than expected by chance [@crist2003]. The probabilities obtained from randomization tests were interpreted as *P*-values, as a low *P*-value ($\text{Prop}_{exp}>\text{Prop}_{obs}<0.05$) indicates an observed diversity significantly different than that expected under the null model. On the other hand, a high *P*-value ($\text{Prop}_{exp}>\text{Prop}_{obs}>0.95$) indicates an observed diversity not different than that expected by chance [@crist2003; @freiry2020; @gering2003; @veech2002]. The results of the analysis were subject to a Monte Carlo permutation test (999 permutations) for validation. The additive partitioning of the diversity was carried out with the function *adipart* from package `vegan` [@oksanen2020]. All analyses were conducted in the statistical environment R [@rdevelopmentcoreteam2017].
+
+# Resultados
+
+Water velocity<!--# AMBIENTAIS --> ranged from 0 to 0.41 m/s, with the highest average recorded at site 14. Waters were, on average, well oxygenated (5.3 to 8.1 mg/L), and cool, with average temperatures betwen from 25.2 to 32.5 °C, the average being 27.7 °C. Conductivity ranged from 98.8 and 223.0 μS/cm, pH was mostly neutral to slightly acidic (from 5.1 to 6.9) and turbidity was low (4.9 to 79.2 NTU). Regarding the morphologacal variables, elevation ranged from 41.5 to 112.8 m a.s.l., while the stream margins slope reached 50° for some sites. Stream width and depth showed greater variations reflecting the range of habitats along the study streams, from small and narrow streams to wider and deeper manmade reservoirs in the stream channel. Stream site width varied from 1 m across to 19.5 m in larger reservoirs. Overall, depths ranged from approx. 10-20 cm to a maximum of 1.55 m, on average. Substrate composition across sites consisted mainly of mud (reaching 100% at sites 1 and 2, in the Barro Branco stream) and sand being more common at the Caiana Stream (reaching 98.3% cover at site 14) (@tbl-hab_gttable). Marginal and underwater habitat structures were diverse with most variables being common at the Barro Branco stream, namely aquatic macrophytes, fillamentous and attached algae and littoral grass. Submerged and overhanging vegetation, leaf litter, root masses and wood debris were present at all sites (see @tbl-hab_gttable).
+
+```{r GTTABLE_HAB_EXCL}
+#| eval: false
+#| message: false
+#| warning: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Environment data table" 
+
+#TABELA DE HABITAT----
+
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
+
+habitat <- read.xlsx("dados/rebio23-habitat.xlsx",
+                     rowNames = T,
+                     colNames = T,
+                     sheet = "ambiente",
+                     startRow = 2)
+m_hab_part <- read.csv("res_ms/m_hab_part.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+m_hab_part$w.Temp_C <- habitat[rownames(m_hab_part), "w.Temp_C"]
+m_hab_part$w.DO_mg.L <- habitat[rownames(m_hab_part), "w.DO_mg.L"]
+
+library(dplyr)
+library(tidyr)
+m_trab <- m_hab_part %>%
+  rename_with(~ gsub("_", ".", .))
+m <- m_trab %>%
+  group_by(PontoN = t_grps$PontoN) %>%
+  summarise(across(where(is.numeric),
+                   list(mean = ~ mean(.x, na.rm = TRUE), #ajustes celulas vazias
+                        min = ~ min(.x, na.rm = TRUE),
+                        max = ~ max(.x, na.rm = TRUE))),
+            .groups = 'drop') %>%
+  pivot_longer(
+    cols = -c(PontoN),
+    names_to = c("Variable", ".value"),
+    names_sep = "_"
+  )
+
+m <- as.data.frame(m)
+m_wide <- m %>%
+  mutate(stat_string = ifelse(Variable == c("m.Vel.m.s"),
+                              paste0(round(mean, 3), " (", round(min, 3), "-", round(max, 3), ")"),
+                              paste0(round(mean, 1), " (", round(min, 1), "-", round(max, 1), ")"))) %>%
+  unite("Location", PontoN, sep = "_") %>%
+  select(Variable, Location, stat_string) %>%
+  pivot_wider(names_from = Location, values_from = stat_string)
+
+m_wide
+m_wide <- as.data.frame(m_wide)
+cols <- colnames(m_wide)
+col_order <- c(
+  "Variable",
+  cols[cols != "Variable"][
+    order(as.numeric(gsub("Ponto", "", cols[cols != "Variable"])))
+  ]
+)
+m_wide <- m_wide[, c(col_order)] #sequência das colunas
+row_order <- c(
+  "w.Temp.C",
+  "w.DO.mg.L",
+  "w.Vel.m.s",
+  "w.Cond.uS.cm",
+  "w.Turb.ntu",
+  "w.pH",
+  "m.Elev.m",
+  "m.Slope",
+  "m.Depth.avg.cm",
+  "m.Depth.mar.cm",
+  "m.Depth.max.cm",
+  "m.Width.m",
+  "s.Mud",
+  "s.Sand",
+  "s.Gravel.f",
+  "s.Rocks",
+  "h.Macrophytes",
+  "h.Algae",
+  "h.Subm.veg",
+  "h.Overh.veg",
+  "h.Grass",
+  "h.Leaf.l",
+  "h.Root.masses",
+  "h.Debris"
+)
+m_wide <- m_wide[match(row_order, m_wide$Variable), ]
+m_wide
+
+# Salvado m_wide
+write.table(m_wide, "res_ms/m_wide_hab_to.txt",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_wide_hab_to <- read.table("res_ms/m_wide_hab_to.txt",
+                  sep = ";", dec = ".",
+                  row.names = 1,
+                  header = TRUE,
+                  na.strings = NA)
+
+# Exportando dados para Excel
+library(openxlsx)
+#write.xlsx(m_wide, file = "res_ms/tabela de habitat.xlsx", rowNames = FALSE)
+wb <- loadWorkbook("res_ms/tabela de habitat.xlsx")
+writeData(wb, sheet = "Sheet 1", x = m_wide)
+saveWorkbook(wb, "res_ms/tabela de habitat.xlsx", overwrite = TRUE)
+
+# Tabela final ajustada no Excel
+library(readxl)
+hab_gttable <- read_excel(
+  path  = "res_ms/tabela de habitat.xlsx",
+  sheet = "tabela_final")
+#range = "A1:P30"#ajustar para o tamanho da tabela final 
+hab_gttable
+library(gt)
+hab_gttable <- gt(hab_gttable)
+hab_gttable <- sub_missing(hab_gttable,
+                      columns = everything(), missing_text = "")
+#hab_gttable <- fmt_number(hab_gttable, columns = "F.O.(%)", decimals = 1)
+hab_gttable
+gtsave(hab_gttable, "res_ms/gt-hab_gttable_xlsx.html")
+saveRDS(hab_gttable, "res_ms/gt-hab_gttable_xlsx.rds")
+```
+
+```{r ENV-VAR_summ}
+#| eval: false
+#| message: false
+#| warning: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Environment data variable summary"
+
+#TABELA DE HABITAT----
+##SEGUE DO SCRIPT ANTERIOR
+
+# Escolher sumário de uma variavel
+m
+var <- "w.Vel.m.s"
+m[m$Variable == var, "mean"] #cada valor de var
+summary(m[m$Variable == var, "mean"]) #sumário dos valores de var
+
+# Escolher sumário de um grupo de variáveis do df m
+vars <- unique(grep("^h\\.", m$Variable, value = TRUE))
+summaries <- list() #criam uma lista vazia para guardar os sumários
+# Loop para cada variável do grupo e guarda em summaries
+for (var in vars) {
+  summaries[[var]] <- summary(m[m$Variable == var, "mean"])
+}
+#var is a temporary variable used in the for loop to iterate through
+#each variable name that starts with "h."
+
+summaries
+summary_table <- do.call(rbind, lapply(summaries, as.data.frame.list))
+colnames(summary_table) <- c("Min", "Q1", "Median", "Mean", "Q3", "Max")
+#sink(file = "res_ms/summary_w.txt", split = TRUE)
+round(summary_table, 2)
+#round(summary_table[order(summary_table$Mean, decreasing = FALSE), ], 2)
+#sink()
+
+#Summario para as médias
+
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
+
+m_hab_part <- read.csv("res_ms/m_hab_part.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+library(dplyr)
+library(tidyr)
+
+m_trab <- m_hab_part %>%
+  rename_with(~ gsub("_", ".", .))
+
+# Compute averages per group
+m_s <- m_trab %>%
+  group_by(PontoN = t_grps$PontoN) %>%
+  summarise(across(where(is.numeric), ~ mean(.x, na.rm = TRUE)),
+            .groups = 'drop') %>%
+  pivot_longer(
+    cols = -PontoN,
+    names_to = "Variable",
+    values_to = "mean"
+  )
+
+# Format rounding and reshape to wide format
+m_wide_s <- m_s %>%
+  mutate(
+    stat_string = ifelse(
+      Variable == "m.Vel.m.s",
+      as.character(round(mean, 3)),
+      as.character(round(mean, 1))
+    )
+  ) %>%
+  unite("Location", PontoN, sep = "_") %>%
+  select(Variable, Location, stat_string) %>%
+  pivot_wider(names_from = Location, values_from = stat_string)
+
+m_wide_s <- as.data.frame(m_wide_s)
+
+# Order columns numerically by Ponto number
+cols <- colnames(m_wide_s)
+col_order <- c(
+  "Variable",
+  cols[cols != "Variable"][
+    order(as.numeric(gsub("Ponto", "", cols[cols != "Variable"])))
+  ]
+)
+m_wide_s <- m_wide_s[, col_order]
+
+# Order rows according to pre-defined variable list
+row_order <- c(
+  "w.Cond.uS.cm",
+  "w.Turb.ntu",
+  "w.pH",
+  "m.Elev.m",
+  "m.Vel.m.s",
+  "m.Slope",
+  "m.Depth.avg.cm",
+  "m.Depth.mar.cm",
+  "s.Mud",
+  "s.Sand",
+  "s.Gravel.f",
+  "s.Rocks",
+  "h.Macrophytes",
+  "h.Algae",
+  "h.Subm.veg",
+  "h.Overh.veg",
+  "h.Grass",
+  "h.Leaf.l",
+  "h.Root.masses",
+  "h.Debris"
+)
+
+m_wide_s <- m_wide_s[match(row_order, m_wide_s$Variable), ]
+
+# View final table
+m_wide_s
+```
+
+Principal Component Analysis (PCA)<!--# PCA --> was used to summarize environmental variation among sampling sites and to identify variables contributing to the differences between streams (@fig-hab_PCA_rio) and seasons (@fig-hab_PCA_periodo). The first two principal components explained 38.6% of the total variance, with the first axis accounting for 23.2%. In relation to the environmental variables of water quality, the Barro Branco stream was more associated with higher elevations, the predominance of muddy substrate and a narrower array of underwater structures, mostly algae, macrophytes, leaf litter and woody debris. The Caiana stream showed a wider range of variables affecting it's waters, being associated with higher pH, turbidity and depths, as well as a predominance of sandy substrates and, to a lesser degree, root masses. Water velocity was also important for this stream. PERMANOVA showed significant differences in the environmental variables between the two study streams ($\textit{pseudo}\text{-F}_{1,86} = 8.3, R^2 = 0.082, p = 0.001$). Even though dry and wet seasons did not show clear segregation in the PCA plot, PERMANOVA indicated significance of differences ($\textit{pseudo}\text{-F}_{1,86} = 4.2, R^2 = 0.042, p = 0.006$). A significant Season × Stream interaction was also detected ($\textit{pseudo}\text{-F}_{1,86} = 2.8, R^2 = 0.028, p = 0.032$), indicating that the effect of hydrological period on the environmental variables differed between Barro Branco and Caiana. The complete model explained 15.1% of the variation, whereas 84.9% remained unexplained by the factors included in the model.
+
+```{r ENV-PCA_fviz}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: hide
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Environment data PCA - fviz"
+
+#PCA fviz package----
+#browseURL("https://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/")
+
+#ORGANIZANDO DADOS----
+
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
+
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_hab_trns <- read.csv("res_ms/m_hab_trns.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+
+#PCA----
+
+library("FactoMineR")
+library("factoextra")
+
+pca <- PCA(m_hab_trns, scale.unit = TRUE, ncp = 5, graph = TRUE)
+print(pca)
+
+eig.val <- get_eigenvalue(pca)
+eig.val
+
+#sink(file = "res_ms/cor_matrix.txt", append = FALSE)
+pca$var$cor
+#sink()
+
+fviz_eig(pca, addlabels = TRUE, ylim = c(0,30))
+
+var <- get_pca_var(pca)
+var
+
+fviz_pca_var(pca, col.var = "black")
+
+library("corrplot")
+corrplot(var$cos2, is.corr=FALSE)
+
+fviz_cos2(pca, choice = "var", axes = 1:2)
+
+fviz_pca_var(pca, col.var = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE # Avoid text overlapping
+)
+
+fviz_pca_var(pca, alpha.var = "cos2")
+
+corrplot(var$contrib, is.corr=FALSE)
+
+fviz_contrib(pca, choice = "var", axes = 1, top = 10)
+fviz_contrib(pca, choice = "var", axes = 2, top = 10)
+fviz_contrib(pca, choice = "var", axes = 1:2, top = 10)
+
+fviz_pca_var(pca, col.var = "contrib",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07")
+)
+fviz_pca_var(pca, alpha.var = "contrib")
+
+##GROUPING BY KMEANS----
+
+set.seed(123)
+res.km <- kmeans(var$coord, centers = 3, nstart = 25)
+grp <- as.factor(res.km$cluster)
+# Color variables by groups
+fviz_pca_var(pca, col.var = grp,
+             palette = c("#0073C2FF", "#EFC000FF", "#868686FF"),
+             legend.title = "Cluster")
+
+ind <- get_pca_ind(pca)
+ind
+ind$contrib
+
+##BIPLOTS----
+
+fviz_pca_ind(pca)
+
+fviz_pca_ind(pca, col.ind = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE #avoid text overlapping (slow if many points)
+)
+
+fviz_pca_ind(pca, pointsize = "cos2",
+             pointshape = 21, fill = "#E7B800",
+             repel = TRUE #avoid text overlapping (slow if many points)
+)
+
+fviz_pca_ind(pca, col.ind = "cos2", pointsize = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE #avoid text overlapping (slow if many points)
+)
+
+fviz_cos2(pca, choice = "ind")
+
+fviz_contrib(pca, choice = "ind", axes = 1:2)
+
+# Create a random continuous variable of length 23,
+# Same length as the number of active individuals in the PCA
+t_grps <- t_grps[rownames(pca$ind$coord), ]
+colnames(t_grps)
+set.seed(123)
+# Escolhendo variável categorica
+my.cont.var <- t_grps$Periodo
+my.cont.var[my.cont.var == "seco"] <- "dry"
+my.cont.var[my.cont.var == "chuvoso"] <- "wet"
+# Color individuals by the continuous variable
+fviz_pca_ind(
+  pca,
+  habillage = my.cont.var,
+  palette = c("blue", "yellow", "red", "pink"),
+  repel = FALSE
+)
+
+fviz_pca_ind(pca,
+             geom.ind = "point", #show points only (nbut not "text")
+             col.ind = as.factor(my.cont.var), #color by groups
+             palette = "grey",
+             addEllipses = TRUE, #concentration ellipses
+             legend.title = "Groups"
+)
+
+length(unique(my.cont.var))
+fviz_pca_ind(pca,
+             geom.ind = "point",
+             col.ind = my.cont.var,
+             palette = "grey",
+             addEllipses = TRUE, ellipse.type = "confidence",
+             mean.point = TRUE,
+             legend.title = "Groups")
+
+fviz_pca_biplot(pca, repel = TRUE,
+                col.var = "#2E9FDF", #variables color
+                col.ind = "#696969"  #individuals color
+)
+
+# PCA com elipse colorida
+fviz_pca_biplot(pca,
+                col.ind = my.cont.var, palette = "jco",
+                addEllipses = TRUE, ellipse.type = "t", #t-distribution confidence ellipses",
+                ellipse.level = 0.95,
+                shape.ind = my.cont.var,
+                label = "var",
+                col.var = "black", repel = TRUE,
+                legend.title = "Stream") +
+  ggtitle(NULL) +
+  scale_color_manual(values = c(
+    "#1B9E77",
+    "#D95F02",
+    "#7570B3",
+    "#E7298A"
+  )) +
+  scale_shape_manual(values = c(
+    16, # circle
+    17, # triangle
+    15, # square
+    18  # diamond
+  ))
+
+### FILTRANDO AS VARIÁVEIS
+var_coord <- pca$var$coord[,1:2]
+keep_vars <- apply(abs(var_coord) > 0.2,1,any)
+vars_to_keep <- rownames(var_coord)[keep_vars]
+pca_filt <- pca
+pca_filt$var$coord    <- pca$var$coord[vars_to_keep,,drop=FALSE]
+pca_filt$var$cos2     <- pca$var$cos2[vars_to_keep,,drop=FALSE]
+pca_filt$var$contrib  <- pca$var$contrib[vars_to_keep,,drop=FALSE]
+
+### AJUSTE MANUAL DAS COORDENADAS DOS VETORES
+
+# Cria uma tabela SEPARADA apenas para as posições dos rótulos
+label_coords <- as.data.frame(pca_filt$var$coord)
+# Multiplica APENAS a posição do texto (as setas continuam intactas no pca_filt)
+label_coords <- label_coords * 2.0
+label_coords <- label_coords * 2.0
+# Se quiser ajustar pontos específicos manualmente
+#fix(label_coords) #nomes das colunas
+#write.table(label_coords,"res_ms/coords_lab.txt")
+label_coords <- read.table("res_ms/coords_lab.txt",
+                         header=TRUE,
+                         row.names=1)
+
+# GRÁFICO FINAL
+
+#png("res_ms/fig-hab_PCA_periodo.png", width = 9, height = 7.5, units = "in", res = 300)
+fviz_pca_biplot(pca_filt,
+  col.ind = my.cont.var, palette = "jco",
+  addEllipses = TRUE, ellipse.type = "t",
+  ellipse.level = 0.95,
+  shape.ind = my.cont.var,
+  label = "none",
+  col.var = "black",
+  legend.title = "Season"
+) +
+  # Adiciona os rótulos nas posições customizadas da tabela label_coords
+  geom_text(
+    data = label_coords,
+    aes(x = Dim.1, y = Dim.2, label = rownames(label_coords)),
+    color = "black",
+    size = 12) +
+  ggtitle(NULL) +
+  scale_color_manual(values = c("#1B9E77", "#D95F02", "#7570B3", "#E7298A")) +
+  scale_fill_manual(values = c("darkcyan", "orange", "#7570B3", "#E7298A")) +
+  scale_shape_manual(values = c(
+    16, # circle
+    17, # triangle
+    15, # square
+    18  # diamond
+  )) +
+  theme(
+  axis.title = element_text(size = 34),
+  axis.text = element_text(size = 32),
+  legend.title = element_text(size = 40),
+  legend.text = element_text(size = 40)
+)
+#dev.off()
+```
+
+```{r ENV-PCA_PERMANOVA}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: hide
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Environment data PCA - PERMANOVA"
+
+#ORGANIZANDO DADOS----
+
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
+
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_hab_trns <- read.csv("res_ms/m_hab_trns.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+
+colnames(t_grps)
+m_trab <- m_hab_trns
+library(vegan)
+
+#MRPP---- 
+
+#TRABALHANDO COM MULTIPLAS VARIAVEIS----
+
+# Run MRPP for multiple variables
+fatores <- c("Periodo", "Rio", "Ref_site")
+set.seed(123)
+mrpp_results <- lapply(fatores, function(v) {
+  grp <- as.factor(t_grps[[v]])
+  mrpp(
+    dat = m_trab,
+    grouping = grp,
+    distance = "bray"
+  )
+})
+names(mrpp_results) <- fatores
+mrpp_results
+# Print one result
+mrpp_results$Ref_site
+# Loop through summaries
+sink(file = "res_ms/mrpp-env.txt", split = TRUE)#, append = TRUE)
+for (v in names(mrpp_results)) {
+  cat("\n============================\n")
+  cat("MRPP for:", v, "\n")
+  print(mrpp_results[[v]])
+}
+sink()
+# Extract key statistics into a table
+mrpp_summary <- data.frame(
+  Variable = fatores,
+  Delta = sapply(mrpp_results, function(x) x$delta),
+  Expected_Delta = sapply(mrpp_results, function(x) x$E.delta),
+  A = sapply(mrpp_results, function(x) x$A),
+  P_value = sapply(mrpp_results, function(x) x$Pvalue)
+)
+sink("res_ms/mrpp-env.txt", append = TRUE)
+mrpp_summary
+sink()
+
+##TRABALHANDO COM UMA UNICA VARIAVEL----
+
+# Run MRPP for a single variable
+grp <- as.factor(t_grps$Ref_site) #UA, mes, estacao, area, ambiente
+set.seed(123)
+mrpp <- mrpp(dat = m_trab, grouping = grp, distance = "bray")
+mrpp
+summary(mrpp)
+
+# Teste de hipótese para uma unica variavel
+str(mrpp)
+p_value <- mrpp$Pvalue
+print(sprintf("p-value: %.10f", p_value))
+# Conditional statement to check the p-value and print the appropriate message
+if (p_value < 0.05) {
+  print(sprintf("Existe diferença significativa porquê o valor de p é %.10f, sendo menor que o nível de significância de 0.05.", p_value))
+} else {
+  print(sprintf("Não existe diferença significativa porquê o valor de p é %.10f, sendo maior ou igual ao nível de significância de 0.05.", p_value))
+}
+
+##TESTES PAREADOS----
+
+# Todos os pares de níveis do fator
+pairs <- combn(levels(as.factor(grp)), 2, simplify = FALSE)
+pairs
+# Aplicar mrpp para cada par
+res_list <- lapply(pairs, function(p) {
+  sel <- grp %in% p
+  mrpp(dat = m_trab[sel, ], grouping = droplevels(grp[sel]), distance = "bray")
+})
+# Dar nomes aos resultados
+names(res_list) <- sapply(pairs, function(p) paste(p, collapse = "_vs_"))
+# visualizar
+res_list
+# Resumo
+summary_tab <- data.frame(
+  Comparison = names(res_list),
+  A = sapply(res_list, function(x) x$A),
+  Delta = sapply(res_list, function(x) x$delta),
+  Pvalue = sapply(res_list, function(x) x$Pvalue)
+)
+sink("res_ms/mrpp-env.txt", append = TRUE)
+summary_tab
+sink()
+
+###MATRIX-STYLE TABLE----
+library(dplyr)
+library(tidyr)
+library(knitr)
+library(kableExtra)
+# Extract unique group names from the comparisons
+groups1 <- sort(unique(unlist(strsplit(summary_tab$Comparison, "_vs_"))))
+# Initialize empty matrix
+pval_matrix <- matrix(NA, nrow = length(groups1), ncol = length(groups1),
+                      dimnames = list(groups1, groups1))
+# Fill matrix with Pvalues
+for (i in 1:nrow(summary_tab)) {
+  comp <- unlist(strsplit(summary_tab$Comparison[i], "_vs_"))
+  g1 <- comp[1]
+  g2 <- comp[2]
+  p <- summary_tab$Pvalue[i]
+
+  pval_matrix[g1, g2] <- p
+  pval_matrix[g2, g1] <- p  #make symmetric
+}
+
+# Format p-values: red if <0.05
+pval_colored <- ifelse(is.na(pval_matrix), "",
+                       ifelse(pval_matrix < 0.05,
+                              paste0("<span style='color:red;'>", sprintf("%.3f", pval_matrix), "</span>"),
+                              sprintf("%.3f", pval_matrix)))
+
+# Convert to data.frame for kable
+pval_df <- as.data.frame(pval_colored)
+pval_df <- tibble::rownames_to_column(pval_df, "Group")
+# Render HTML table
+matrixstyle <- pval_df %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling(full_width = FALSE)
+matrixstyle
+save_kable(matrixstyle, "res_ms/kb-mrpp-env_matrixstyle.html")
+
+##GRÁFICO DA MRPP----
+
+png("res_ms/fig-mrpp-env.png", width = 15, height = 10, units = "in", res = 300)
+def.par <- par(no.readonly = TRUE)
+layout(matrix(1:2,nr=1))
+plot(ord <- metaMDS(m_trab, distance="bray"), type="text", display="sites")
+with(t_grps, ordihull(ord, grp))
+with(mrpp, {
+  fig.dist <- hist(boot.deltas, xlim=range(c(delta,boot.deltas)),
+                   main="Test of Differences Among Groups")
+  abline(v=delta);
+  text(delta, 2*mean(fig.dist$counts), adj = -0.5,
+       expression(bold(delta)), cex=1.5 )  }
+)
+par(def.par)
+dev.off()
+
+###AVALIANDO AS DISTÂNCIAS MÉDIAS----
+md <- with(t_grps, meandist(vegdist(m_trab), grp))
+md
+summary(md)
+par(mfrow=c(1,2))
+plot(md)
+plot(md, kind="histogram")
+par(mfrow=c(1,1))
+
+#PerMANOVA----
+
+#browseURL("https://riffomonas.org/code_club/2021-03-18-vegan")
+#browseURL("https://riffomonas.org/code_club/2021-03-22-reproducibility")
+
+library(tidyverse)
+library(ggtext)
+library(ggplot2)
+library(vegan)
+
+## TESTES PARA VARIAVEIS COM MAIS DE DOIS FATORES
+
+adonis2(m_trab ~ Ref_site, data = t_grps, method = "bray")
+set.seed(123)
+perm <- 999
+all_test <- adonis2(m_trab ~ Ref_site, data = t_grps, method = "bray", permutations = perm)
+all_test
+
+## TESTES PARA VARIAVEIS COM DOIS FATORES
+
+sink(file = "res_ms/perma-env.txt", split = TRUE)#, append = TRUE)
+set.seed(123)
+perm <- 999
+adonis2(m_trab ~ Periodo, data = t_grps, method = "bray", permutations = perm)
+adonis2(m_trab ~ Rio, data = t_grps, method = "bray", permutations = perm)
+adonis2(m_trab ~ Periodo + Rio, data = t_grps, #+ no lugar de * tira os residuos
+        method = "bray", permutations = perm) 
+
+## AVALIANDO INTERAÇÕES-----
+
+adonis2(m_trab ~ Periodo*Rio, data = t_grps, method = "bray", permutations = perm,
+        by = "terms") #ou by=NULL remove as interações
+adonis2(m_trab ~ Periodo*Rio, data = t_grps, method = "bray", permutations = perm,
+        by = "margin") #ou by=NULL remove as interações
+adonis2(m_trab ~ Periodo*Rio, data = t_grps, method = "bray", permutations = perm,
+        by = NULL) #ou by=NULL remove as interações
+sink()
+
+#BETADISPER
+
+dist_bray <- vegdist(m_trab, method = "bray")
+t_grps$Periodo_Rio <- interaction(
+  t_grps$Periodo,
+  t_grps$Rio,
+  sep = "_")
+bd <- betadisper(dist_bray, t_grps$Periodo_Rio)
+permutest(bd, permutations = 999)
+
+# PARA CADA FATOR
+
+bd_periodo <- betadisper(dist_bray, t_grps$Periodo)
+bd_rio <- betadisper(dist_bray, t_grps$Rio)
+permutest(bd_periodo, permutations = 999)
+permutest(bd_rio, permutations = 999)
+
+######### ARRUMAR ISSO ############################
+
+all_p <- all_test$`Pr(>F)`[1]
+all_p
+
+count(t_grps, Periodo)
+colnames(t_grps)
+
+# Pairwise comparisons
+#browseURL("https://doi.org/10.1007/s10641-018-0751-1")
+#Lanés, L.E.K., Reichard, M., de Moura, R.G. et al. 2018.
+#Environmental predictors for annual fish assemblages in subtropical
+#grasslands of South America: the role of landscape and habitat
+#characteristics. Environ Biol Fish 101, 963–977.
+
+library(dplyr)
+#library(combninat) # or base R combn()
+
+set.seed(123)
+
+# Get unique levels of UA
+groups <- unique(t_grps$Ref_site)
+groups
+# All pairwise combinations
+pairs <- combn(groups, 2, simplify = FALSE)
+pairs
+# Store results
+pairwise_results <- lapply(pairs, function(g) {
+  # Subset data
+  sub_data <- t_grps %>% filter(Ref_site %in% g)
+  sub_dist <- m_trab[rownames(sub_data), ]
+
+  # Run adonis2
+  test <- adonis2(sub_dist ~ Ref_site, data = sub_data,
+                  method = "bray", permutations = perm)
+
+  tibble(
+    group1 = g[1],
+    group2 = g[2],
+    F_value = test$F[1],
+    R2 = test$R2[1],
+    p_value = test$`Pr(>F)`[1]
+  )
+})
+# Bind all results
+pairwise_results <- bind_rows(pairwise_results)
+pairwise_results
+pairwise_p <- numeric()
+pairwise_p <- pairwise_results$p_value
+pairwise_p
+adj_p_values <- p.adjust(pairwise_p, method="bonferroni") #c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none")
+adj_p_values
+pairwise_results$adj_p_values <- adj_p_values
+pairwise_results
+# Get unique group names
+groups2 <- sort(unique(c(pairwise_results$group1, pairwise_results$group2)))
+# Initialize empty matrix
+pval_matrix <- matrix(NA, nrow = length(groups2), ncol = length(groups2),
+                      dimnames = list(groups2, groups2))
+# Fill in p-values
+for (i in 1:nrow(pairwise_results)) {
+  g1 <- pairwise_results$group1[i]
+  g2 <- pairwise_results$group2[i]
+  p <- pairwise_results$p_value[i]
+
+  pval_matrix[g1, g2] <- p
+  pval_matrix[g2, g1] <- p  #make symmetric
+}
+pval_matrix
+
+library(knitr)
+library(kableExtra)
+
+# Make a copy of the matrix
+pval_colored <- pval_matrix
+# Replace numeric values with formatted HTML strings
+pval_colored[] <- ifelse(is.na(pval_matrix), "",
+                         ifelse(pval_matrix < 0.05,
+                                paste0("<span style='color:red;'>", sprintf("%.3f", pval_matrix), "</span>"),
+                                sprintf("%.3f", pval_matrix)))
+# Convert to data frame with rownames
+pval_df <- as.data.frame(pval_colored)
+pval_df <- tibble::rownames_to_column(pval_df, "Group")
+# Render table
+pval_df %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling(full_width = FALSE)
+save_kable(matrixstyle, "res_ms/kb-perma_matrixstyle.html")
+
+## AVALIANDO INTERAÇÕES-----
+
+adonis2(m_trab ~ Periodo, data = t_grps, method = "bray")
+adonis2(m_trab ~ Periodo*Rio, data = t_grps,
+        method = "bray") #+ no lugar de * tira os residuos
+adonis2(m_trab ~ Periodo*Rio, data = t_grps,
+        method = "bray", by = "terms", strata = NULL)
+
+```
+
+Among<!--# NUTRIENTES --> the averaged nutrient concentrations (@tbl-nutri_gttable), ammonia ranged from 49.2 to 243.7 µg/L. The Caiana stream tended to have greater values, but overall no clear trend can be observed when comparing both streams. Nitrite and nitrate, on the other hand, show clearly a greater concentrations at the Caiana stream, nitrate varying from 166.4 to 2003.0 µg/L, compared with the maximum of 18.8 µg/L at the Barro Branco stream. Nitrite was too low to be detectable at the Barro Branco stream. The same pattern was observed for orthophosphate concentrations, being barely detectable at Barro Branco stream, and varying from 4.0 to 32.0 µg/L at the Caiana stream. Total phosphorus, however, tended to have higher concentrations at Barro Branco stream, reaching 50.1 µg/L at Site 3, but with highly variable values (from non detectable to 38.7 µg/L, as the second highest value).
+
+```{r GTTABLE_NUTRI_EXCLl}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Nutrient data table" 
+
+#TABELA DE NUTRIENTES----
+
+##ORGANIZANDO DADOS----
+
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
+
+t_nutri <- read.csv("res_ms/t_nutri.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+nutri <- t_nutri
+
+library(dplyr)
+library(tidyr)
+t_grps <- t_grps[seq_len(nrow(nutri)), , drop = FALSE]
+m_trab <- nutri %>%
+  rename_with(~ gsub("_", ".", .))
+m <- m_trab %>%
+  group_by(PontoN = t_grps$PontoN) %>%
+  summarise(across(where(is.numeric),
+                   list(mean = mean, min = min, max = max)),
+            .groups = 'drop') %>%
+  pivot_longer(
+    cols = -c(PontoN),
+    names_to = c("Variable", ".value"),
+    names_sep = "_"
+  )
+
+m <- as.data.frame(m)
+colnames(m_trab)
+m_wide <- m %>%
+  mutate(stat_string = ifelse(Variable == c("Ammonia.NH3.ug.L"),
+                              paste0(round(mean, 1), " (", round(min, 1), "-", round(max, 1), ")"),
+                              paste0(round(mean, 1), " (", round(min, 1), "-", round(max, 1), ")"))) %>%
+  unite("Location", PontoN, sep = "_") %>%
+  select(Variable, Location, stat_string) %>%
+  pivot_wider(names_from = Location, values_from = stat_string)
+
+m_wide
+m_wide <- as.data.frame(m_wide)
+cols <- colnames(m_wide)
+col_order <- c(
+  "Variable",
+  cols[cols != "Variable"][
+    order(as.numeric(gsub("Ponto", "", cols[cols != "Variable"])))
+  ]
+)
+m_wide <- m_wide[, c(col_order)] #sequência das colunas
+m_wide
+
+# Salvado m_wide
+write.table(m_wide, "res_ms/m_wide_nutri.txt",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_wide_nutri <- read.table("res_ms/m_wide_nutri.txt",
+                  sep = ";", dec = ".",
+                  row.names = 1,
+                  header = TRUE,
+                  na.strings = NA)
+
+# Exportando dados para Excel
+library(openxlsx)
+#write.xlsx(m_wide, file = "res_ms/tabela de nutrientes.xlsx", rowNames = FALSE)
+wb <- loadWorkbook("res_ms/tabela de nutrientes.xlsx")
+writeData(wb, sheet = "Sheet 1", x = m_wide_nutri)
+saveWorkbook(wb, "res_ms/tabela de nutrientes.xlsx", overwrite = TRUE)
+
+# Tabela final ajustada no Excel
+library(readxl)
+nutri_gttable <- read_excel(
+  path  = "res_ms/tabela de nutrientes.xlsx",
+  sheet = "tabela_final",
+  range = "A1:P7") #ajustar para o tamanho da tabela final 
+nutri_gttable
+library(gt)
+nutri_gttable <- gt(nutri_gttable)
+nutri_gttable <- sub_missing(nutri_gttable,
+                      columns = everything(), missing_text = "")
+nutri_gttable
+gtsave(nutri_gttable, "res_ms/gt-nutri_gttable_xlsx.html")
+saveRDS(nutri_gttable, "res_ms/gt-nutri_gttable_xlsx.rds")
+```
+
+A total of<!--# CHECKLIST --> 56 taxa distributed among Rotifera (14 families), Cladocera (5 families) and Copepoda (2 families) were identified during the study period. Rotifera was the most species-rich group, represented by 39 species (plus Bdelloidea), followed by Cladocera (12 species) and Copepoda (4 species, in addition to the juvenile stages nauplii and copepodite). Across sampling periods, Lecanidae exhibited the highest richness among all recorded families of Rotifera with 15 species, followed by Lepadellidae, Synchaetidae (both with 4 species), Brachionidae and Mytilinidae (both with 3 species). Bdelloidea was the most abundant taxa (6194 individuals) followed by *Lecane curvicornis* with 626 individuals. Among the cladocerans, Chydoridae was the richest family with 5 species, followed by Macrothricidae (3 species). *Alonella dadayi* was the most abundant among the cladocerans with 1051 individuals. Juvenile stages (nauplii and copepodite) were also abundant with 2433 and 4061 individuals, respectively. Copepods were represented by he orders Cyclopoida and Calanoida, *Paracyclops* sp. *Mesocyclops* sp. being the most abundant (141 and 231 individuals, respectively) (@tbl-checklist_gttable).
+
+```{r COMM-STR}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Community structure data table" 
+
+#ZOOREBIO_part - ESTR. DA COMUNIDADE----
+#####....----
+
+##ORGANIZANDO DADOS----
+
+dev.off() #apaga os graficos, se houver algum
+rm(list=ls(all=TRUE)) #limpa a memória
+cat("\014") #limpa o console
+
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_dens <- read.csv("res_ms/m_dens.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_hab_part <- read.csv("res_ms/m_hab_part.csv",
+                  sep = ";", dec = ".",
+                  row.names = 1,
+                  header = TRUE,
+                  na.strings = NA)
+m_cont <- read.csv("res_ms/m_cont.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+library(tibble)
+library(tidyverse)
+library(forcats)
+library(openxlsx)
+library(Rcpp)
+
+m_dens
+str(m_dens)
+m_trab <- m_dens
+
+m_trab <- (m_dens) #SITES
+m_trab <- t(m_dens) #SPP
+
+##TAMANHO DA MATRIZ----
+
+range(m_trab) #menor e maior valores
+length(m_trab) #no. de colunas
+ncol(m_trab) #no. de N colunas
+nrow(m_trab) #no. de M linhas
+sum(lengths(m_trab)) #soma os nos. de colunas
+length(as.matrix(m_trab)) #tamanho da matriz m x n
+sum(m_trab == 0) #número de observações igual a zero
+sum(m_trab > 0) #número de observações maiores que zero
+#calculando a proporção de zeros na matriz
+zeros <- (sum(m_trab == 0)/length(as.matrix(m_trab)))*100
+zeros
+
+##ESTRUTURA DA COMUNIDADE----
+
+Sum <- rowSums(m_trab)
+#ou
+Sum <- apply(m_trab,1,sum)
+Sum
+# Abundância relativa (%)
+RA <- (Sum / sum(Sum)) * 100 # percentage
+# Media
+Mean <- rowMeans(m_trab)
+Mean
+# Ou
+Mean <- apply(m_trab,1,mean)
+Mean
+# Desvio padrão
+DP <- apply(m_trab,1,sd)
+DP
+# Máximo
+Max <- apply(m_trab,1,max)
+Max
+# Mínimo
+Min <- apply(m_trab,1,min)
+Min
+# Mínimo não-zero
+MinZ <- apply(m_trab, 1, function(row) {
+  non_zero_values <- row[row > 0]  # Filter out zero values
+  if (length(non_zero_values) == 0) {
+    return(0)  # If all values are zero, return 0
+  } else {
+    return(min(non_zero_values))  # Return the minimum of non-zero values
+  }
+})
+MinZ
+
+m_pa <- m_trab
+m_pa[m_pa != 0] <- 1
+rowSums(m_pa)
+library(vegan)
+bin <- decostand(m_trab,"pa")
+bin[1:10, 1:10]
+S <- apply(bin,1,sum)
+S
+#OU
+Riqueza <- specnumber(m_trab)
+Riqueza
+Riqueza_total <- specnumber(colSums(m_trab))
+Riqueza_total
+
+FO <- rowSums(m_trab > 0) / ncol(m_trab) * 100
+FO
+
+H <- diversity(m_trab, index = "shannon")
+H
+D <- diversity(m_trab, "simpson")
+D
+D[is.na(D)] <- 0 #substitui NA ou NaN por 0
+D
+E <- H/log(specnumber(m_trab))
+E
+E[is.na(E)] <- 0 #substitui NA ou NaN por 0
+E
+
+###DESCRITORES----
+Descritores1 <- cbind(Sum, RA, Mean, DP, Max, Min, MinZ, FO, S, E, H, D)
+Descritores1 <- as.data.frame(Descritores1)
+Descritores1
+Descritores1 <- Descritores1[order(-Descritores1$Mean), ] #ordena do maio para o menor "-"
+#Descritores1 <- Descritores1 %>% rownames_to_column(var="Espécies") #da nome a primeira coluna
+SomaTotalD <- apply(Descritores1,2,sum)
+SomaTotalD
+MediaTotalD <- apply(Descritores1,2,mean)
+MediaTotalD
+DPTotalD <- apply(Descritores1,2,sd)
+DPTotalD
+Descritores2 <- cbind(SomaTotalD, MediaTotalD, DPTotalD)
+Descritores2 <- as.data.frame(Descritores2)
+Descritores2 <- t(Descritores2)
+Descritores2
+DescritoresFinal <- rbind(Descritores1, Descritores2)
+DescritoresFinal
+DescritoresFinal <- round (DescritoresFinal, 2)
+DescritoresFinal
+
+# Salvando DescritoresFinal
+write.table(data.frame("SPP"=rownames(DescritoresFinal),
+                       DescritoresFinal),
+            "res_ms/DescritoresSPP.txt",
+            row.names=FALSE,
+            sep="\t")
+
+###TABELA FINAL DESCRITORES----
+library(gt)
+df <- DescritoresFinal
+ncol(df); nrow(df) #no. de N colunas x M linhas
+df <- cbind(SPP = rownames(df), df)
+gt <- gt(df, rowname_col = "SPP",
+   caption = "Descritores da diversidade por espécie (colunas). Sum, soma; RA, abundância relativa (%); mean, média; DP, desvio padrão da média; Max, maior valor; Min, menor valor; MinZ, menor valor não zero; FO, frequência de ocorrência (%); S, riqueza (ou no. de ocorrências, da matriz transposta); E, índice de equitabilidade de Pielou; H, índice de diversidade de Shannon; D, índice de diversidade de Simpson.")
+gt
+gtsave(gt, "res_ms/DescritoresSPP.html")
+gtsave(gt, "res_ms/DescritoresSPP.png")
+
+###NORMALIDADE----
+library(moments)
+Assimetria <- apply(m_trab,1,skewness)
+Assimetria
+Curtose <- apply(m_trab,1,kurtosis)
+Curtose
+Normalidade1 <- cbind(Assimetria, Curtose)
+Normalidade1 <- as.data.frame(Normalidade1)
+Normalidade1
+SomaTotalN <- apply(Normalidade1,2,sum)
+SomaTotalN
+MediaTotalN <- apply(Normalidade1,2,mean)
+MediaTotalN
+DPTotalN <- apply(Normalidade1,2,sd)
+DPTotalN
+Normalidade2<-cbind(SomaTotalN, MediaTotalN, DPTotalN)
+Normalidade2<-as.data.frame(Normalidade2)
+Normalidade2 <- t(Normalidade2) #"t" transpoe a matriz
+Normalidade2
+NormalidadeFinal <- rbind(Normalidade1, Normalidade2)
+NormalidadeFinal
+NormalidadeFinal <- round(NormalidadeFinal, 2)
+NormalidadeFinal
+
+# Salvando NormalidadeFinal
+write.table(data.frame("SPP"=rownames(NormalidadeFinal),
+                       NormalidadeFinal),
+            "res_ms/NormalidadeSPP.txt",
+            row.names=FALSE,
+            sep="\t")
+
+###TABELA FINAL NORMALIDADE----
+nf <- NormalidadeFinal
+ncol(nf); nrow(nf) #no. de N colunas x M linhas
+nf <- cbind(SPP = rownames(nf), nf)
+gt <- gt(nf, rowname_col = "SPP", caption = "Descritores da normalidade por SPP (COLUNA)")
+gt
+gtsave(gt, "res_ms/NormalidadeSPP.html")
+
+#DIVERSIDADE EM DENSIDADE MATRIZ NÃO-TRANSPOSTA----
+
+m_trab <- (m_dens) #HILL
+
+# Números de Hill
+Hill <- renyi(m_trab,
+              scales = c(0:5),
+              hill = TRUE)
+Hill
+library(ggplot2)
+library(tidyr)
+library(tidyverse)
+grafico1 <- Hill %>%
+  rownames_to_column() %>%
+  pivot_longer(-rowname) %>%
+  mutate(name = factor(name, name[1:length(Hill)])) %>%
+  ggplot(aes(x = name, y = value, group = rowname,
+             col = rowname)) +
+  geom_point(size = 2) +
+  geom_line(size = 1) +
+  xlab("Parâmetro de ordem de diversidade (q)") +
+  ylab("Diversidade") +
+  labs(col = "Locais") +
+  theme_bw() +
+  theme(text = element_text(size = 10)) #ajustar a fonte caso nao caiba no output html
+grafico1
+ggsave(grafico1, dpi = 300, filename = "res_ms/fig-hill.png")
+
+# Gráfico de abunância
+abund <- colSums(m_trab)
+#abund <- m_trab[1, ] #escolhe a primeira linha para a distribuição de abundância
+df <- data.frame(sp = colnames(m_trab),
+                 abun = abund)
+grafico2 <- ggplot(df, aes(fct_reorder(sp, -abun),
+                           abun, group = 1)) +
+  geom_col() +
+  geom_line(col = "red", linetype = "dashed") +
+  geom_point(col = "red") +
+  xlab("Espécies") +
+  ylab("Abundância") +
+  theme_bw() +
+  theme(axis.text.x = element_text(
+    angle = 45,
+    hjust = 1,
+    face = "italic",
+    size = 10),
+    axis.text.y = element_text(size = 10),
+    axis.title.x = element_text(size = 12),
+    axis.title.y = element_text(size = 12))
+grafico2
+ggsave(grafico2, dpi = 300, filename = "res_ms/fig-abun.png")
+
+# Curvas de rarefação
+m_trab_r <- mutate(as.data.frame(m_trab), across(everything(), ceiling)) #arredonda a matriz original para números inteiros
+colSums(t(m_trab_r))
+colnames(t(m_trab_r))
+#rarefa <- t(m_trab_r[c("S-R-CT2","S-R-CP2","S-A-TA2","B-A-MU2"),]) #curva de rarefação para os sítios especificados
+class(m_trab)
+
+# Curva de rarefação para todos os sítios
+rarefa <- t(m_trab_r)
+## Curva de rarefação para as 8 UA's com maior soma
+#m_trab_r <- as.data.frame(t(m_trab_r)) #transpõe a matriz
+#col_sums <- colSums(m_trab_r)
+#largest_columns <- names(sort(col_sums, decreasing = TRUE)[1:8])
+#rarefa <- m_trab_r[largest_columns] #curva de rarefação para as 8 UA's com maior soma
+library(iNEXT)
+out <- iNEXT(rarefa, q = 0,
+             datatype = "abundance",
+             size = NULL,
+             endpoint = 2000, #define o comprimento de eixo x
+             knots = 40,
+             se = TRUE,
+             conf = 0.95,
+             nboot = 50)
+grafico3 <- ggiNEXT(out, type = 1, facet.var="None") +
+  theme_bw() +
+  labs(fill = "Áreas") +
+  xlab("Número de indivíduos") +
+  ylab("Riqueza de espécies") +
+  theme(legend.title=element_blank()) #ver como fica com facet.var="Assemblage"
+#grafico3
+#ggsave(grafico3, dpi = 300, filename = "fig-rare1.png")
+
+# Curvas de acumulação de espéces
+acumula <- specaccum(m_trab,
+                     method = "random")
+acumula
+plot(acumula)
+plot_data <- data.frame("UAs" = c(0, acumula$sites),
+                        "Riqueza" = c(0, acumula$richness),
+                        "lower" = c(0, acumula$richness - acumula$sd),
+                        "upper" = c(0, acumula$richness + acumula$sd))
+gLocais <- ggplot(plot_data, aes(x = UAs, y = Riqueza)) +
+  geom_point(color = "blue", size = 4) +
+  geom_line(color = "blue", lwd = 2) +
+  geom_ribbon(aes(ymin = lower, ymax = upper),
+              linetype=2, alpha=0.3, fill = "yellow") +
+  ylab("Riqueza acumulada") +
+  theme_classic() +
+  theme(text = element_text(size = 16))
+gLocais
+ggsave(gLocais, dpi = 300, filename = "res_ms/fig-acum.png")
+
+plot_data <- data.frame("Individuos" = c(0, acumula$individuals),
+                        "Riqueza" = c(0, acumula$richness),
+                        "lower" = c(0, acumula$richness - acumula$sd),
+                        "upper" = c(0, acumula$richness + acumula$sd))
+gInd <- ggplot(plot_data, aes(x = Individuos, y = Riqueza)) +
+  geom_point(color = "blue", size = 4) +
+  geom_line(color = "blue", lwd = 2) +
+  geom_ribbon(aes(ymin = lower, ymax = upper),
+              linetype=2, alpha=0.3, fill = "yellow") +
+  ylab("Riqueza acumulada") +
+  theme_classic() +
+  theme(text = element_text(size = 16))
+gInd
+
+#RIQUEZA RAREFACIONADA----
+
+# Rarefação baseada na matriz de contagem
+library(vegan)
+data <- m_cont #raremax precisa de numeros inteiros
+S <- specnumber(data) #observed number of species
+S
+#raremax <- min(rowSums(data))
+raremax <- round(mean(rowSums(data)))
+#raremax <- 1000
+raremax
+Srare <- rarefy(data, raremax)
+Srare
+plot(S, Srare, xlab = "Observed No. of Species", ylab = "Rarefied No. of Species")
+abline(0, 1)
+
+#png("res_ms/fig-rarecurve.png")
+rarecurve(data, step = 20,
+          sample = raremax, #linhas de rarefação
+          col = "blue", cex = 0.6,
+          xlab = "Sample size", ylab = "Taxa", xlim = c()) #c(0,5000)
+#dev.off()
+
+##TABELA DA COMUNIDADE----
+
+library(dplyr)
+library(tidyr)
+m_trab <- m_dens %>%
+  rename_with(~ gsub("_", ".", .))
+m <- m_trab %>%
+  group_by(Rio = t_grps$Rio,
+           Periodo = t_grps$Periodo,
+           Ponto = t_grps$PontoN) %>%
+  summarise(across(where(is.numeric),
+                   list(mean = mean, sd = sd)),
+            .groups = 'drop') %>%
+  pivot_longer(
+    cols = -c(Rio, Periodo, Ponto),
+    names_to = c("Variable", ".value"),
+    names_sep = "_"
+  )
+m
+m <- as.data.frame(m)
+m_wide <- m %>%
+  mutate(stat_string = ifelse(
+    Variable == "nome_da_variavel",  #escolhe uma variável pra ter 3 casas decimais
+    paste0(round(mean, 3), " (", round(sd, 3), ")"),
+    paste0(round(mean, 1), " (", round(sd, 1), ")")
+  )) %>%
+  unite("Location", Rio, Periodo, Ponto, sep = "_") %>%
+  dplyr::select(Variable, Location, stat_string) %>% #dplyr dá conflito com MASS
+  pivot_wider(names_from = Location, values_from = stat_string)
+
+m_wide
+m_wide <- as.data.frame(m_wide)
+m_wide
+
+# Salvado m_wide
+write.table(m_wide, "res_ms/m_wide_spp.txt",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_wide_spp <- read.table("res_ms/m_wide_spp.txt",
+                  sep = ";", dec = ".",
+                  row.names = 1,
+                  header = TRUE,
+                  na.strings = NA)
+
+# Exportando dados para Excel
+library(openxlsx)
+#write.xlsx(m_wide_spp, file = "res_ms/tabela da comunidade.xlsx", rowNames = FALSE)
+wb <- loadWorkbook("res_ms/tabela da comunidade.xlsx")
+writeData(wb, sheet = "Sheet 1", x = m_wide_spp)
+saveWorkbook(wb, "res_ms/tabela da comunidade.xlsx", overwrite = TRUE)
+
+# Tabela final ajustada no Excel
+library(readxl)
+spp_gttable <- read_excel(
+  path  = "res_ms/tabela da comunidade.xlsx",
+  sheet = "tabela_final",
+  col_names = T,
+  range = "A1:AE61") #ajustar para o tamanho da tabela final
+spp_gttable
+library(gt)
+spp_gttable <- gt(spp_gttable)
+spp_gttable <- sub_missing(spp_gttable,
+                      columns = everything(), missing_text = "")
+#spp_gttable <- fmt_number(spp_gttable,
+#                          columns = "F.O.(%)", decimals = 1)
+spp_gttable
+gtsave(spp_gttable, "res_ms/gt-spp_gttable_xlsx.html")
+saveRDS(spp_gttable, "res_ms/gt-spp_gttable_xlsx.rds")
+
+#LISTA DE ESPÉCIES
+
+# Exportando dados para Excel
+library(openxlsx)
+#write.xlsx(m_wide_spp, file = "res_ms/tabela da comunidade.xlsx", rowNames = FALSE)
+wb <- loadWorkbook("res_ms/tabela da comunidade.xlsx")
+writeData(wb, sheet = "Sheet 1", x = m_wide_spp)
+saveWorkbook(wb, "res_ms/tabela da comunidade.xlsx", overwrite = TRUE)
+
+# Tabela final ajustada no Excel
+library(readxl)
+spp_gttable <- read_excel(
+  path  = "dados/rebio23-zoopl.xlsx",
+  sheet = "Espécies",
+  col_names = T,
+  range = "L1:S90") #ajustar para o tamanho da tabela final
+spp_gttable
+library(gt)
+spp_gttable <- gt(spp_gttable)
+spp_gttable <- sub_missing(spp_gttable,
+                      columns = everything(), missing_text = "")
+#spp_gttable <- fmt_number(spp_gttable,
+#                          columns = "F.O.(%)", decimals = 1)
+spp_gttable
+gtsave(spp_gttable, "res_ms/gt-checklist_gttable_xlsx.html")
+saveRDS(spp_gttable, "res_ms/gt-checklist_gttable_xlsx.rds")
+```
+
+```{r COMM-VAR_summ}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Community structure variable summary"
+
+# Escolher sumário de uma variavel
+m
+var <- "h.roots"
+m[m$Variable == var, "mean"] #cada valor de var
+summary(m[m$Variable == var, "mean"]) #sumário dos valores de var
+
+# Escolher sumário de um grupo de variáveis do df m
+vars <- unique(grep("^h\\.", m$Variable, value = TRUE))
+summaries <- list() #criam uma lista vazia para guardar os sumários
+# Loop para cada variável do grupo e guarda em summaries
+for (var in vars) {
+  summaries[[var]] <- summary(m[m$Variable == var, "mean"])
+}
+#var is a temporary variable used in the for loop to iterate through
+#each variable name that starts with "h."
+
+summaries
+summary_table <- do.call(rbind, lapply(summaries, as.data.frame.list))
+round(summary_table, 2)
+#sink(file = "summary_h.txt", split = TRUE)
+round(summary_table[order(summary_table$Mean, decreasing = FALSE), ], 2)
+#sink()
+
+# Tabela limpa
+#summary_table <- cbind(Variable = rownames(summary_table), summary_table)
+#rownames(summary_table) <- NULL
+#colnames(summary_table) <- c("Variable", "Min", "Q1", "Median", "Mean", "Q3", "Max")
+#summary_table
+```
+
+Rarefaction<!--# RAREFAÇÃO --> analysis showed that the Caiana stream had a taxa richness slightly higher than that of the Barro Branco stream (@fig-rare1). Nevertheless, given a similar sample size, the Barro Branco stream would have a greater diversity, as shown by the Chao index that estimated an extrapolated richness of 58 (±8.9) species for the Barro Branco stream, compared with 54.2 (± 4.3) species for the Caiana stream.
+
+```{r COMM-ACCUMCURV}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Community structure data table" 
+
+#ZOOREBIO_part - CURVA DE ACUMULAÇÃO----
+#####....----
+
+##ORGANIZANDO DADOS----
+
+dev.off() #apaga os graficos, se houver algum
+rm(list=ls(all=TRUE)) #limpa a memória
+cat("\014") #limpa o console
+
+m_cont <- read.csv("res_ms/m_cont.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_trab <- m_cont
+
+library(tidyverse)
+
+m_trab_r <- mutate(m_trab, across(everything(), ceiling)) #arredonda a matriz original para números inteiros
+
+colSums(t(m_trab_r))
+colnames(t(m_trab_r))
+
+ca_abund <- colSums(m_trab_r[grep("-C-", rownames(m_trab_r)), ])
+bb_abund  <- colSums(m_trab_r[grep("-B-", rownames(m_trab_r)), ])
+
+m_rios <- rbind("Caiana" = ca_abund, "Barro Branco" = bb_abund)
+m_rios
+
+rarefa <- t(m_rios)
+
+library(iNEXT)
+out <- iNEXT(rarefa, q = 0,
+             datatype = "abundance",
+             size = NULL,
+             endpoint = 15000, #define o comprimento de eixo x
+             knots = 40,
+             se = TRUE,
+             conf = 0.95,
+             nboot = 50)
+
+library(ggplot2)
+grafico3 <- ggiNEXT(out, type = 1, facet.var="None") + #ver como fica com facet.var="Assemblage"
+  theme_bw() +
+  labs(fill = "Áreas") +
+  xlab("Number of individuals") + 
+  ylab("Taxa richness") +
+  scale_linetype_discrete(
+    labels = c("Interpolation", "Extrapolation")) +
+  theme(legend.title = element_blank(),
+        legend.position = "bottom",
+        legend.text = element_text(size = 14),
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 12)
+) 
+grafico3
+ggsave(grafico3, width = 8, height = 6, dpi = 300, filename = "res_ms/fig-rare1.png")
+
+#ESTIMADORES DA DIVERSIDADE 
+
+#https://rpubs.com/Juan-Mt/diversity-estimations
+#https://analises-ecologicas.com/cap11
+
+library(vegan)
+m_cont <- as.matrix(m_cont)
+storage.mode(m_cont) <- "numeric"
+
+BB <- m_cont[grepl("^[SC]-B-", rownames(m_cont)),, drop = FALSE]
+CA <- m_cont[grepl("^[SC]-C-", rownames(m_cont)),, drop = FALSE]
+
+nrow(BB)
+nrow(CA)
+
+# Calculando a riqueza observada
+BB_total <- colSums(BB)
+CA_total <- colSums(CA)
+S_BB <- sum(BB_total > 0)
+S_CA <- sum(CA_total > 0)
+S_BB
+S_CA
+
+# Chao1
+chao_BB <- estimateR(BB_total)
+chao_CA <- estimateR(CA_total)
+chao_BB
+chao_CA
+
+# Separando Chao1
+resultado_chao <- data.frame(
+  Stream = c("Barro Branco", "Caiana"),
+  Observed = c(
+    chao_BB["S.obs"],
+    chao_CA["S.obs"]
+  ),
+  Chao1 = c(
+    chao_BB["S.chao1"],
+    chao_CA["S.chao1"]
+  ),
+  SE = c(
+    chao_BB["se.chao1"],
+    chao_CA["se.chao1"]
+  )
+)
+resultado_chao
+
+# 95% confidence intervals
+resultado_chao$Lower95 <- resultado_chao$Chao1 -
+  1.96 * resultado_chao$SE
+resultado_chao$Upper95 <- resultado_chao$Chao1 +
+  1.96 * resultado_chao$SE
+
+# Do not allow the lower limit to be below observed richness
+resultado_chao$Lower95 <- pmax(
+  resultado_chao$Lower95,
+  resultado_chao$Observed
+)
+
+sink(file = "res_ms/chao.txt")
+# Tabela pronta
+resultado_chao
+sink()
+```
+
+Regarding<!--# UPGMA --> the community composition as shown by the UPGMA (@fig-upgma), sites did not aggregate to represent the different streams or their hierarchy across seasons. <!--# COEFICIENTES -->Even though the Cophenetic coefficients showed that the UPGMA dendrograms were a good represenation of the original Bray-Curtis dissimilarities among sampling sites ($CC_{dry} = 0.84$ and $CC_{wet} = 0.87$), the UPGMA cluster analyses revealed low-to-moderate spatial clustering strength for the zooplankton communities across both periods, as indicated by the Agglomerative coefficients ($AC_{dry} = 0.34$ and $AC_{wet} = 0.39$). The PERMANOVA based on Bray–Curtis dissimilarities showed a significant effect of both hydrological period ($\text{F}_{1,86} = 5.3, R^2 = 0.056, p = 0.001$) and stream ($\text{F}_{1,86} = 1.8, R^2 = 0.019, p = 0.042$) on community composition. The full model including the Season × Stream interaction was also significant ($\text{F}_{1,86} = 2.1, R^2 = 0.022, p = 0.031$), explaining 9.73% of the total variation, with 90.27% of the variation unexplained by the factors included in the model.
+
+```{r COMM-UPGMA}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Community data Classification UPGMA"
+
+#ZOOREBIO_part - UPGMA----
+#####....----
+
+##ORGANIZANDO DADOS----
+
+dev.off() #apaga os graficos, se houver algum
+rm(list=ls(all=TRUE)) #limpa a memória
+cat("\014") #limpa o console
+
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_dens <- read.csv("res_ms/m_dens.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_hab_part <- read.csv("res_ms/m_hab_part.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+m_cont <- read.csv("res_ms/m_cont.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+#TRANSFORMANDO A MATRIZ DE DENSIDADE
+
+library(vegan)
+m_dens_trns <- asin(sqrt(decostand(m_dens,
+                               method="total", MARGIN = 2)))
+
+write.table(m_dens_trns, "res_ms/m_dens_trns.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_dens_trns <- read.csv("res_ms/m_dens_trns.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+vegdist <- vegdist(m_dens_trns, method = "bray",
+                   diag = TRUE,
+                   upper = FALSE)
+cluster <- hclust(vegdist, method = "average")
+plot (cluster, main = "Cluster Dendrogram - Bray-Curtis")
+rect.hclust(cluster, k = 3, h = NULL) 
+#h = 0.8 fornece os grupos formados na altura h
+as.matrix(vegdist)[1:6, 1:6]
+
+#SEPARANDO OS PERÍODOS E REFAZENDO A TRANSFORMAÇÃO 
+
+# Fazendo a média por ponto
+ponto_id <- sub("-H[0-9]+$", "", rownames(m_dens))
+m_dens_media <- aggregate(m_dens, by = list(Ponto = ponto_id), FUN = mean)
+rownames(m_dens_media) <- m_dens_media$Ponto
+m_dens_media$Ponto <- NULL
+
+write.table(m_dens_media, "res_ms/m_dens_media.csv",
+            sep = ";", dec = ".", #"\t",
+            row.names = TRUE,
+            quote = TRUE,
+            append = FALSE)
+m_dens_media <- read.csv("res_ms/m_dens_media.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_dens_media <- m_dens_trns
+# Separar por período
+seco_med <- m_dens_media[startsWith(rownames(m_dens_media), "S-"), ]
+chuv_med <- m_dens_media[startsWith(rownames(m_dens_media), "C-"), ]
+# Filtrar COLUNAS zeradas (espécies ausentes no período)
+seco_med <- seco_med[, colSums(seco_med) > 0]
+chuv_med <- chuv_med[, colSums(chuv_med) > 0]
+# Filtrar LINHAS zeradas (pontos sem organismos)
+seco_med <- seco_med[rowSums(seco_med) > 0, ]
+chuv_med <- chuv_med[rowSums(chuv_med) > 0, ]
+# Transformação
+seco_trns <- asin(sqrt(decostand(seco_med,
+                              method="total", MARGIN = 2)))
+chuv_trns <- asin(sqrt(decostand(chuv_med,
+                              method="total", MARGIN = 2)))
+# Distâncias de Bray-Curtis e UPGMA
+dist_seco <- vegdist(seco_trns, method = "bray")
+dist_chuv <- vegdist(chuv_trns, method = "bray")
+upgma_seco <- hclust(dist_seco, method = "average")
+upgma_chuv <- hclust(dist_chuv, method = "average")
+
+# Coeficientes de aglomeração
+agg_coef_seco <- coef.hclust(upgma_seco)
+agg_coef_chuv <- coef.hclust(upgma_chuv)
+# Gerar a matriz de distância cofenética a partir da árvore UPGMA
+cofe_seco <- cophenetic(upgma_seco)
+cofe_chuv <- cophenetic(upgma_chuv)
+# Calcular a correlação com a matriz de distância original (Bray-Curtis)
+cor_seco <- cor(dist_seco, cofe_seco)
+cor_chuv <- cor(dist_chuv, cofe_chuv)
+# Visualizar os resultados
+cat("Correlação Cofenética (Seco):", round(cor_seco, 3), "\n")
+cat("Correlação Cofenética (Chuvoso):", round(cor_chuv, 3), "\n")
+
+# Plot dos dendrogramas agrupados por ponto
+upgma_seco$labels <- sub("^[A-Z]-", "", upgma_seco$labels)
+upgma_chuv$labels <- sub("^[A-Z]-", "", upgma_chuv$labels)
+dend_seco <- as.dendrogram(hclust(dist_seco, method = "average"))
+dend_chuv <- as.dendrogram(hclust(dist_chuv, method = "average"))
+
+#png("res_ms/fig-upgma.png", width=11, height=9, units="in", res=400)
+par(mfrow = c(1, 2), mar = c(5, 4, 2, 6)) #B, L, T, R
+plot(as.dendrogram(upgma_seco), 
+     horiz = TRUE, 
+     xlab = "Bray-Curtis dissimilariry",
+     xlim = c(max(attr(dend_seco, "height")), 0),
+     cex.lab = 1)
+title(main = "Dry", line = 0, cex.main = 1.2)
+mtext(paste0("Agglomerative Coefficient = ", round(agg_coef_seco, 2)), 
+      side = 2,           # Lado esquerdo (eixo Y)
+      line = 1,           # Distância da margem
+      at = 7,             # Posição na base do eixo
+      las = 0,            # Orientação do texto
+      cex = 0.8)          # Tamanho da fonte
+mtext(paste0("Cophenetic Coefficient = ", round(cor_seco, 2)), 
+            side = 2,           # Lado esquerdo (eixo Y)
+            line = 2,           # Distância da margem
+            at = 7,             # Posição na base do eixo
+            las = 0,            # Orientação do texto
+            cex = 0.8)          # Tamanho da fonte      
+      
+plot(as.dendrogram(upgma_chuv), 
+     horiz = TRUE, 
+     xlab = "Bray-Curtis dissimilariry",
+     xlim = c(max(attr(dend_chuv, "height")), 0),
+     cex.lab = 1)
+title(main = "Wet", line = 0, cex.main = 1.2)
+mtext(paste0("Agglomerative Coefficient = ", round(agg_coef_chuv, 2)), 
+      side = 2,           # Lado esquerdo (eixo Y)
+      line = 1,           # Distância da margem
+      at = 7,             # Posição na base do eixo
+      las = 0,            # Orientação do texto
+      cex = 0.8)          # Tamanho da fonte
+mtext(paste0("Cophenetic Coefficient = ", round(cor_chuv, 2)), 
+      side = 2,           # Lado esquerdo (eixo Y)
+      line = 2,           # Distância da margem
+      at = 7,             # Posição na base do eixo
+      las = 0,            # Orientação do texto
+      cex = 0.8)          # Tamanho da fonte      
+par(mfrow = c(1, 1))
+#dev.off()
+
+#OUTRA FORMA
+#plot(as.dendrogram(upgma_chuv), 
+#     horiz = TRUE, 
+#     main = "Wet", 
+#     xlab = "Bray-Curtis dissimilarity",
+#     xlim = c(max(attr(dend_chuv, "height")), 0))
+# Adiciona o texto no canto inferior esquerdo
+#text(x = max(attr(dend_chuv, "height")) * 0.9, 
+#     y = 3, 
+#     labels = paste0("Agglomerative Coefficient = ", round(agg_coef_chuv, 2)), 
+#     adj = c(0, 0), 
+#     cex = 0.85, 
+#     srt = 90) # srt = 90 gira o texto para ficar vertical
+#OU
+#mtext(paste0("Cophenetic Coefficient = ", round(cor_seco, 2)), 
+#      side = 2,    # 1 = bottom margin
+#      line = 2.5,    # Line distance below axis (increase if it overlaps numbers)
+#      adj = 0.36,     # Posição horizontal
+#      cex = 0.85)  # Font size
+```
+
+```{r COMM-UPGMA_PERMANOVA}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: hide
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Environment data PCA - PERMANOVA"
+
+
+#ORGANIZANDO DADOS----
+
+dev.off()
+rm(list=ls(all=TRUE))
+cat("\014")
+
+t_grps <- read.csv("res_ms/t_grps.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_dens_trns <- read.csv("res_ms/m_dens_trns.csv",
+                       sep = ";", dec = ".",
+                       row.names = 1,
+                       header = TRUE,
+                       na.strings = NA)
+
+colnames(t_grps)
+m_trab <- m_dens_trns
+library(vegan)
+
+#MRPP---- 
+
+#TRABALHANDO COM MULTIPLAS VARIAVEIS----
+
+# Run MRPP for multiple variables
+fatores <- c("Periodo", "Rio", "Ref_site")
+set.seed(123)
+mrpp_results <- lapply(fatores, function(v) {
+  grp <- as.factor(t_grps[[v]])
+  mrpp(
+    dat = m_trab,
+    grouping = grp,
+    distance = "bray"
+  )
+})
+names(mrpp_results) <- fatores
+mrpp_results
+# Print one result
+mrpp_results$Ref_site
+# Loop through summaries
+sink(file = "res_ms/mrpp-dens.txt", split = TRUE)#, append = TRUE)
+for (v in names(mrpp_results)) {
+  cat("\n============================\n")
+  cat("MRPP for:", v, "\n")
+  print(mrpp_results[[v]])
+}
+sink()
+# Extract key statistics into a table
+mrpp_summary <- data.frame(
+  Variable = fatores,
+  Delta = sapply(mrpp_results, function(x) x$delta),
+  Expected_Delta = sapply(mrpp_results, function(x) x$E.delta),
+  A = sapply(mrpp_results, function(x) x$A),
+  P_value = sapply(mrpp_results, function(x) x$Pvalue)
+)
+sink("res_ms/mrpp-dens.txt", append = TRUE)
+mrpp_summary
+sink()
+
+##TRABALHANDO COM UMA UNICA VARIAVEL----
+
+# Run MRPP for a single variable
+grp <- as.factor(t_grps$Ref_site) #UA, mes, estacao, area, ambiente
+set.seed(123)
+mrpp <- mrpp(dat = m_trab, grouping = grp, distance = "bray")
+mrpp
+summary(mrpp)
+
+# Teste de hipótese para uma unica variavel
+str(mrpp)
+p_value <- mrpp$Pvalue
+print(sprintf("p-value: %.10f", p_value))
+# Conditional statement to check the p-value and print the appropriate message
+if (p_value < 0.05) {
+  print(sprintf("Existe diferença significativa porquê o valor de p é %.10f, sendo menor que o nível de significância de 0.05.", p_value))
+} else {
+  print(sprintf("Não existe diferença significativa porquê o valor de p é %.10f, sendo maior ou igual ao nível de significância de 0.05.", p_value))
+}
+
+##TESTES PAREADOS----
+
+# Todos os pares de níveis do fator
+pairs <- combn(levels(as.factor(grp)), 2, simplify = FALSE)
+pairs
+# Aplicar mrpp para cada par
+res_list <- lapply(pairs, function(p) {
+  sel <- grp %in% p
+  mrpp(dat = m_trab[sel, ], grouping = droplevels(grp[sel]), distance = "bray")
+})
+# Dar nomes aos resultados
+names(res_list) <- sapply(pairs, function(p) paste(p, collapse = "_vs_"))
+# visualizar
+res_list
+# Resumo
+summary_tab <- data.frame(
+  Comparison = names(res_list),
+  A = sapply(res_list, function(x) x$A),
+  Delta = sapply(res_list, function(x) x$delta),
+  Pvalue = sapply(res_list, function(x) x$Pvalue)
+)
+sink("res_ms/mrpp-dens.txt", append = TRUE)
+summary_tab
+sink()
+
+###MATRIX-STYLE TABLE----
+library(dplyr)
+library(tidyr)
+library(knitr)
+library(kableExtra)
+# Extract unique group names from the comparisons
+groups1 <- sort(unique(unlist(strsplit(summary_tab$Comparison, "_vs_"))))
+# Initialize empty matrix
+pval_matrix <- matrix(NA, nrow = length(groups1), ncol = length(groups1),
+                      dimnames = list(groups1, groups1))
+# Fill matrix with Pvalues
+for (i in 1:nrow(summary_tab)) {
+  comp <- unlist(strsplit(summary_tab$Comparison[i], "_vs_"))
+  g1 <- comp[1]
+  g2 <- comp[2]
+  p <- summary_tab$Pvalue[i]
+
+  pval_matrix[g1, g2] <- p
+  pval_matrix[g2, g1] <- p  #make symmetric
+}
+
+# Format p-values: red if <0.05
+pval_colored <- ifelse(is.na(pval_matrix), "",
+                       ifelse(pval_matrix < 0.05,
+                              paste0("<span style='color:red;'>", sprintf("%.3f", pval_matrix), "</span>"),
+                              sprintf("%.3f", pval_matrix)))
+
+# Convert to data.frame for kable
+pval_df <- as.data.frame(pval_colored)
+pval_df <- tibble::rownames_to_column(pval_df, "Group")
+# Render HTML table
+matrixstyle <- pval_df %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling(full_width = FALSE)
+matrixstyle
+save_kable(matrixstyle, "res_ms/kb-mrpp-dens_matrixstyle.html")
+
+##GRÁFICO DA MRPP----
+
+png("res_ms/fig-mrpp-dens.png", width = 15, height = 10, units = "in", res = 300)
+def.par <- par(no.readonly = TRUE)
+layout(matrix(1:2,nr=1))
+plot(ord <- metaMDS(m_trab, distance="bray"), type="text", display="sites")
+with(t_grps, ordihull(ord, grp))
+with(mrpp, {
+  fig.dist <- hist(boot.deltas, xlim=range(c(delta,boot.deltas)),
+                   main="Test of Differences Among Groups")
+  abline(v=delta);
+  text(delta, 2*mean(fig.dist$counts), adj = -0.5,
+       expression(bold(delta)), cex=1.5 )  }
+)
+par(def.par)
+dev.off()
+
+###AVALIANDO AS DISTÂNCIAS MÉDIAS----
+md <- with(t_grps, meandist(vegdist(m_trab), grp))
+md
+summary(md)
+par(mfrow=c(1,2))
+plot(md)
+plot(md, kind="histogram")
+par(mfrow=c(1,1))
+
+#PerMANOVA SIMPLIFICADA----
+
+#browseURL("https://riffomonas.org/code_club/2021-03-18-vegan")
+#browseURL("https://riffomonas.org/code_club/2021-03-22-reproducibility")
+
+library(vegan)
+
+## TESTES PARA VARIAVEIS COM MAIS DE DOIS FATORES
+
+adonis2(m_trab ~ Ref_site, data = t_grps, method = "bray")
+set.seed(123)
+perm <- 999
+all_test <- adonis2(m_trab ~ Ref_site, data = t_grps, method = "bray", permutations = perm)
+all_test
+
+## TESTES PARA VARIAVEIS COM DOIS FATORES
+
+sink(file = "res_ms/perma-dens.txt", split = TRUE)#, append = TRUE)
+set.seed(123)
+perm <- 999
+adonis2(m_trab ~ Periodo, data = t_grps, method = "bray", permutations = perm)
+adonis2(m_trab ~ Rio, data = t_grps, method = "bray", permutations = perm)
+adonis2(m_trab ~ Periodo + Rio, data = t_grps, #+ no lugar de * tira os residuos
+        method = "bray", permutations = perm) 
+
+## AVALIANDO INTERAÇÕES-----
+
+adonis2(m_trab ~ Periodo*Rio, data = t_grps, method = "bray", permutations = perm,
+        by = "terms") #ou by=NULL remove as interações
+adonis2(m_trab ~ Periodo*Rio, data = t_grps, method = "bray", permutations = perm,
+        by = "margin") #ou by=NULL remove as interações
+adonis2(m_trab ~ Periodo*Rio, data = t_grps, method = "bray", permutations = perm,
+        by = NULL) #ou by=NULL remove as interações
+sink()
+
+#BETADISPER
+
+dist_bray <- vegdist(m_trab, method = "bray")
+t_grps$Periodo_Rio <- interaction(
+  t_grps$Periodo,
+  t_grps$Rio,
+  sep = "_")
+bd <- betadisper(dist_bray, t_grps$Periodo_Rio)
+permutest(bd, permutations = 999)
+
+# PARA CADA FATOR
+
+bd_periodo <- betadisper(dist_bray, t_grps$Periodo)
+bd_rio <- betadisper(dist_bray, t_grps$Rio)
+permutest(bd_periodo, permutations = 999)
+permutest(bd_rio, permutations = 999)
+```
+
+Hierarchical<!--# PARTIÇÃO GERAL --> additive partitioning was firstly performed separate for ech season with the gamma diversity including both study stream. <!--# ENTRE PERIODOS -->The comparison between dry and wet seasons revealed that zooplankton diversity was structured non-randomly across spatial scales ($p < 0.001$ for all components except $\beta_2$; @tbl-part_gttable). <!--# SECO -->For the dry season, the alpha diversity ($\alpha_1 = 12.5\%$) was significantly lower than expected by chance ($\text{SES} = -22.1, p = 0.001$), indicating spatial aggregation or environmental filtering at finer scales. Habitat-scale beta diversity ($\beta_1 = 9.7\%$) was significantly lower than expected under the null model ($\text{SES} = -8.9, p = 0.001$), reflecting high compositional similarity among local sampling units. On the other hand, beta diversity, among streams ($\beta_3 = 26.7\%$) was significantly higher than that predicted by chance ($\text{SES} = 5.6, p = 0.001$), demonstrating substantial species turnover at the highest hierarchical level. The intermediate scale (among sites) contributed the most for the observed regional diversity ($\beta_2 = 51.1\%$) and it did not deviate significantly from null expectations ($\text{SES} = 0.6, p = 0.519$). <!--# CHUVA -->Contrasting results were obtained for the wet season, when the observed alpha diversity ($\alpha_1 = 23.7\%$) was much higher than the dry season, yet significantly lower than that expected by chance ($\text{SES} = -45.4, p = 0.001$). Similar to results from the dry season, the habitat-scale beta diversity ($\beta_1 = 11.8\%$) was significantly lower than expected under the null model ($\text{SES} = -7.0, p = 0.001$), and the the beta diversity among streams ($\beta_3 = 16.3\%$) was significantly higher than that predicted by chance ($\text{SES} = 9.5, p = 0.001$). The intermediate scale (among sites) gave a lesser contribution to the total observed diversity ($\beta_2 = 48.3\%$), when compared to the dry season and, differently from the dry season, it deviated significantly from the null expectation ($\text{SES} = 13.4, p = 0.001$).
+
+Hierarchical<!--# ENTRE RIOS CONCISO --> additive partitioning was performed separately for each season within the Barro Branco and Caiana streams (@fig-particao_rios). Across all four combinations, local alpha diversity ($\alpha_1 = 14.7\%-30.8\%$) and fine-scale habitat beta diversity ($\beta_1 = 12.1\%-14.8\%$) were consistently lower than expected under null model predictions (see @tbl-part_gttable for SES and *P*-values). The alpha diversity was higher during the wet season when compared with the dry season across both streams. This recurring negative deviation highlights strong local spatial aggregation and compositional homogenization among sampling points within sites. Beta diversity among sites ($\beta_2 = 54.6\%-73.2\%$) consistently contributed the largest share of total regional richness and was significantly higher than predicted by chance (see @tbl-part_gttable for SES and *P*-values). These positive effect sizes confirm that spatial species turnover among sites is the primary driver structuring zooplankton assemblages within both streams regardless of seasonality.
+
+<!--# #### ENTRE RIOS LONGA #### Hierarchical additive partitioning was performed separately for each season within the Barro Branco and Caiana streams. The analysis on the Barro Branco stream revealed that, during the dry season, local alpha diversity ($\alpha_1 = 20.2\%$) was significantly lower than expected by chance ($\text{SES} = -11.3, p = 0.001$). Habitat-scale beta diversity ($\beta_1 = 14.8\%$) was also significantly lower than expected under the null model ($\text{SES} = -4.7, p = 0.001$), reflecting high compositional similarity among local sampling units. Conversely, beta diversity among sites ($\beta_2 = 65.0\%$) was significantly higher than predicted by chance ($\text{SES} = 9.1, p = 0.001$), contributing the most to total regional diversity and demonstrating substantial spatial turnover at the broadest scale within the stream. During the wet season, observed local alpha diversity was slightly higher ($\alpha_1 = 24.2\%$), but remained significantly lower than expected by chance ($\text{SES} = -20.1, p = 0.001$). Similar to the dry season, habitat-scale beta diversity ($\beta_1 = 13.1\%$) was significantly lower than expected under the null model ($\text{SES} = -3.2, p = 0.003$), whereas beta diversity among sites ($\beta_2 = 62.6\%$) was significantly higher than predicted by chance ($\text{SES} = 13.6, p = 0.001$), maintaining its dominant contribution to regional diversity across seasons.   Curral de Arame Stream (CA)Similarly, hierarchical additive partitioning within the Curral de Arame Stream (CA) indicated non-random spatial structuring across both seasons ($p < 0.005$ for all components; Table X). In the dry season, local alpha diversity ($\alpha_1 = 14.7\%$) was significantly lower than expected by chance ($\text{SES} = -15.6, p = 0.001$). Fine-scale beta diversity ($\beta_1 = 12.1\%$) was also significantly lower than expected under the null expectation ($\text{SES} = -4.4, p = 0.001$), while beta diversity among sites ($\beta_2 = 73.2\%$) contributed disproportionately to observed diversity and was significantly higher than predicted by chance ($\text{SES} = 10.5, p = 0.001$). During the wet season, local alpha diversity increased substantially ($\alpha_1 = 30.8\%$), yet remained significantly lower than expected by chance ($\text{SES} = -34.7, p = 0.001$). Fine-scale beta diversity ($\beta_1 = 14.6\%$) was lower than predicted by the null model ($\text{SES} = -2.8, p = 0.005$), whereas site-scale beta diversity ($\beta_2 = 54.6\%$) remained significantly higher than expected by chance ($\text{SES} = 26.5, p = 0.001$), confirming that spatial turnover among sites is the primary driver of zooplankton richness within both streams regardless of hydrological period.-->
+
+```{r ADDPART}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Diversity partition"
+
+#ZOOREBIO_part - ADDPART----
+#####....----
+
+##ORGANIZANDO DADOS----
+
+dev.off() #apaga os graficos, se houver algum
+rm(list=ls(all=TRUE)) #limpa a memória
+cat("\014") #limpa o console
+
+m_esc <- read.csv("res_ms/m_esc.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_dens <- read.csv("res_ms/m_dens.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+m_cont <- read.csv("res_ms/m_cont.csv",
+                   sep = ";", dec = ".",
+                   row.names = 1,
+                   header = TRUE,
+                   na.strings = NA)
+
+#BUSCANDO AS ESCALAS
+
+# Partição total
+colnames(m_esc)
+pt.total <- m_esc[, c("pt.rio", "pt.periodo", "pt.rebio")]
+head(pt.total)
+dim(pt.total)
+
+# Partição seco
+pt.seco <- m_esc[, c("s.habitat", "s.ponto", "s.rio", "s.rebio")]
+pt.seco <- pt.seco[grep("^S-", rownames(pt.seco)), ]
+head(pt.seco)
+dim(pt.seco)
+m_cont_s <- m_cont[grep("^S-", rownames(m_cont)), ]
+
+# Partição chuvoso
+pt.chuva <- m_esc[, c("c.habitat", "c.ponto", "c.rio", "c.rebio")]
+pt.chuva <- pt.chuva[grep("^C-", rownames(pt.chuva)), ]
+head(pt.chuva)
+dim(pt.chuva)
+m_cont_c <- m_cont[grep("^C-", rownames(m_cont)), ]
+
+# Partição bb.seco (A)
+bb.seco <- m_esc[, c("bb.habitat", "bb.ponto", "bb.rio")]
+bb.seco <- bb.seco[grep("S-B-", rownames(bb.seco)), ]
+head(bb.seco)
+dim(bb.seco)
+m_cont_bb.seco <- m_cont[grep("S-B-", rownames(m_cont)), ]
+
+# Partição bb.chuva (B)
+bb.chuva <- m_esc[, c("bb.habitat", "bb.ponto", "bb.rio")]
+bb.chuva <- bb.chuva[grep("C-B-", rownames(bb.chuva)), ]
+head(bb.chuva)
+dim(bb.chuva)
+m_cont_bb.chuva <- m_cont[grep("C-B-", rownames(m_cont)), ]
+
+# Partição ca.seco (C)
+ca.seco <- m_esc[, c("ca.habitat", "ca.ponto", "ca.rio")]
+ca.seco <- ca.seco[grep("S-C-", rownames(ca.seco)), ]
+head(ca.seco)
+dim(ca.seco)
+m_cont_ca.seco <- m_cont[grep("S-C-", rownames(m_cont)), ]
+
+# Partição ca.chuva (D)
+ca.chuva <- m_esc[, c("ca.habitat", "ca.ponto", "ca.rio")]
+ca.chuva <- ca.chuva[grep("C-C-", rownames(ca.chuva)), ]
+head(ca.chuva)
+dim(ca.chuva)
+m_cont_ca.chuva <- m_cont[grep("C-C-", rownames(m_cont)), ]
+
+#PARTIÇÃO
+
+#pt.total (m_cont)
+#pt.seco (m_cont_s), pt.chuva (m_cont_c)
+#bb.seco(A) (m_cont_bb.seco), bb.chuva(B) (m_cont_bb.chuva)
+#ca.seco(C) (m_cont_ca.seco), ca.chuva(D) (m_cont_ca.chuva)
+
+library(vegan)
+part1 <- ca.chuva
+cont <- m_cont_ca.chuva
+sink(file = "res_ms/part-pt.ca.chuva.txt")
+#VALORES ABSOLUTOS
+set.seed(666)
+part.a <- adipart(y = cont, x = part1, index = "richness", relative = FALSE,
+                    weights = "unif", nsimul = 999)
+part.a
+
+#EM PORCENTAGEM
+set.seed(666)
+part.p <- adipart(y = cont, x = part1, index = "richness", relative = TRUE,
+                    weights = "unif", nsimul = 999)
+part.p
+
+#saveRDS(part.p, "res_ms/part.p-pt.total.rds")
+#saveRDS(part.p, "res_ms/part.p-pt.seco.rds")
+#saveRDS(part.p, "res_ms/part.p-pt.chuva.rds")
+#saveRDS(part.p, "res_ms/part.p-bb.seco.rds")
+#saveRDS(part.p, "res_ms/part.p-bb.chuva.rds")
+#saveRDS(part.p, "res_ms/part.p-ca.seco.rds")
+#saveRDS(part.p, "res_ms/part.p-ca.chuva.rds")
+
+#part.p <- readRDS("res_ms/part.p-pt.total.rds")
+#part.p <- readRDS("res_ms/part.p-pt.seco.rds")
+#part.p <- readRDS("res_ms/part.p-pt.chuva.rds")
+#part.p <- readRDS("res_ms/part.p-bb.seco.rds")
+#part.p <- readRDS("res_ms/part.p-bb.chuva.rds")
+#part.p <- readRDS("res_ms/part.p-ca.seco.rds")
+#part.p <- readRDS("res_ms/part.p-ca.chuva.rds")
+
+# Extrair valores do objeto part.p
+part2 <- part.p
+  
+statistic <- part2$statistic
+SES <- part2$oecosimu$z
+mean <- part2$oecosimu$means
+lower_2.5 <- apply(part2$oecosimu$simulated, 1, quantile, probs = 0.025)
+median_50 <- apply(part2$oecosimu$simulated, 1, quantile, probs = 0.50)
+upper_97.5 <- apply(part2$oecosimu$simulated, 1, quantile, probs = 0.975)
+Pr_sim <- part2$oecosimu$pval
+
+# Definir função para adicionar significância
+get_significance <- function(p) {
+  if (p <= 0.001) {
+    return("***")
+  } else if (p <= 0.01) {
+    return("**")
+  } else if (p <= 0.05) {
+    return("*")
+  } else if (p <= 0.1) {
+    return(".")
+  } else {
+    return(" ")
+  }
+}
+significance <- sapply(Pr_sim, get_significance)
+
+# Criar dataframe com todas as informações
+diversity_data <- data.frame(
+  Component = names(statistic),
+  Observed = round(statistic, 2),
+  SES = round(SES, 2),
+  Mean = round(mean, 2),
+  Lower_2.5 = round(lower_2.5, 2),
+  Median_50 = round(median_50, 2),
+  Upper_97.5 = round(upper_97.5, 2),
+  Pr_sim = Pr_sim,
+  Sign = significance
+)
+
+# Exibir a tabela
+library(gt)
+print(diversity_data)
+#str(part2)
+gt(diversity_data)
+
+# Criar dataframe com valores observados e esperados
+observed_values <- part2$statistic
+observed_values
+expected_values <- part2$oecosimu$means
+expected_values
+
+# Combine observed and expected values into a dataframe
+df <- data.frame(
+  Component = rep(names(observed_values), 2), # Use names from observed_values
+  Type = rep(c("Observed", "Expected"), each = length(observed_values)),
+  Value = c(observed_values, expected_values) # Observado primeiro, Esperado depois
+)
+
+df$Type <- factor(df$Type, levels = c("Observed", "Expected"))
+df
+df_filtered <- df[!df$Component %in% c("alpha.2", "alpha.3", "alpha.4", "gamma"), ]
+df_filtered$Component <- factor(df_filtered$Component, levels = c("beta.4", "beta.3", "beta.2", "beta.1", "alpha.1"))
+df_filtered
+
+diversity_data <- df_filtered
+diversity_data
+
+# Calcular porcentagens para cada componente
+diversity_data <- diversity_data %>%
+  group_by(Type) %>%
+  mutate(Percentage = Value / sum(Value) * 100)
+
+hier <- hiersimu(y = cont, x = part1, FUN = diversity)
+hier
+sink()
+
+#saveRDS(diversity_data, "res_ms/part-pt.gtotal.rds")
+#saveRDS(diversity_data, "res_ms/part-pt.gseco.rds")
+#saveRDS(diversity_data, "res_ms/part-pt.gchuva.rds")
+#saveRDS(diversity_data, "res_ms/part-bb.gseco.rds")
+#saveRDS(diversity_data, "res_ms/part-bb.gchuva.rds")
+#saveRDS(diversity_data, "res_ms/part-ca.gseco.rds")
+#saveRDS(diversity_data, "res_ms/part-ca.gchuva.rds")
+
+#GRÁFICOS
+
+library(ggplot2)
+library(dplyr)
+
+# PARTIÇÃO TOTAL
+
+pt.gtotal <- readRDS("res_ms/part-pt.gtotal.rds")
+ggplot_pt.total <- ggplot(pt.gtotal, aes(fill = Component, y = Percentage, x = Type)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(title = "Total",
+       y = "% of the total diversity",
+       x = "") +
+  scale_fill_manual(values = c("alpha.1" = "black",
+                               "beta.1" = "darkgray",
+                               "beta.2" = "gray",
+                               "beta.3" = "lightgray",
+                               "beta.4" = gray(0.9)),
+                    labels = c("alpha.1" = "Habitat (α1)",
+                               "beta.1"  = "Habitat (β1)",
+                               "beta.2"  = "Site (β2)",
+                               "beta.3"  = "Stream (β3)",
+                               "beta.4"  = "β4")) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    panel.grid = element_blank(),
+    legend.position = "right"
+  )
+ggplot_pt.total
+ggsave(ggplot_pt.total, dpi = 300, filename = "res_ms/fig-part_total.png")
+
+# PARTIÇÃO POR PERÍODO
+
+# Partição seco #pt.seco (m_cont_s)
+pt.gseco <- readRDS("res_ms/part-pt.gseco.rds")
+ggplot_pt.seco <- ggplot(pt.gseco, aes(fill = Component, y = Percentage, x = Type)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(title = "Dry",
+       y = "% of the total diversity",
+       x = "") +
+  scale_fill_manual(values = c("alpha.1" = "black",
+                               "beta.1" = "darkgray",
+                               "beta.2" = "gray",
+                               "beta.3" = "lightgray",
+                               "beta.4" = gray(0.9)),
+                    labels = c("alpha.1" = "Habitat (α1)",
+                               "beta.1"  = "Habitat (β1)",
+                               "beta.2"  = "Site (β2)",
+                               "beta.3"  = "Stream (β3)",
+                               "beta.4"  = "β4")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5), #hjust 0=left, 0.5=center, 1=right
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    panel.grid = element_blank(),
+  )
+ggplot_pt.seco
+ggsave(ggplot_pt.total, dpi = 300, filename = "res_ms/fig-part_seco.png")
+
+# Partição chuvoso #pt.chuva (m_cont_c)
+pt.gchuva <- readRDS("res_ms/part-pt.gchuva.rds")
+ggplot_pt.chuva <- ggplot(pt.gchuva, aes(fill = Component, y = Percentage, x = Type)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(title = "Wet",
+       y = "% of the total diversity",
+       x = "") +
+  scale_fill_manual(values = c("alpha.1" = "black",
+                               "beta.1" = "darkgray",
+                               "beta.2" = "gray",
+                               "beta.3" = "lightgray",
+                               "beta.4" = gray(0.9)),
+                    labels = c("alpha.1" = "Habitat (α1)",
+                               "beta.1"  = "Habitat (β1)",
+                               "beta.2"  = "Site (β2)",
+                               "beta.3"  = "Stream (β3)",
+                               "beta.4"  = "β4")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5), #hjust 0=left, 0.5=center, 1=right
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    panel.grid = element_blank(),
+  )
+ggplot_pt.chuva
+ggsave(ggplot_pt.total, dpi = 300, filename = "res_ms/fig-part_chuva.png")
+
+# PARTIÇÃO POR RIO
+
+# bb.seco (A) #bb.seco(A) (m_cont_bb.seco)
+bb.gseco <- readRDS("res_ms/part-bb.gseco.rds")
+ggplot_bb.seco <- ggplot(bb.gseco, aes(fill = Component, y = Percentage, x = Type)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(title = "Dry",
+       y = "% of the total diversity",
+       x = "") +
+  scale_fill_manual(values = c("alpha.1" = "black",
+                               "beta.1" = "darkgray",
+                               "beta.2" = "gray",
+                               "beta.3" = "lightgray",
+                               "beta.4" = gray(0.9)),
+                    labels = c("alpha.1" = "Habitat (α1)",
+                               "beta.1"  = "Habitat (β1)",
+                               "beta.2"  = "Site (β2)",
+                               "beta.3"  = "Stream (β3)",
+                               "beta.4"  = "β4")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5), #hjust 0=left, 0.5=center, 1=right
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    panel.grid = element_blank(),
+  )
+ggplot_bb.seco
+ggsave(ggplot_bb.seco, dpi = 300, filename = "res_ms/fig-bb.seco.png")
+
+# bb.chuva (B) #bb.chuva(B) (m_cont_bb.chuva)
+bb.gchuva <- readRDS("res_ms/part-bb.gchuva.rds")
+ggplot_bb.chuva <- ggplot(bb.gchuva, aes(fill = Component, y = Percentage, x = Type)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(title = "Wet",
+       y = "Barro Branco stream",
+       x = "") +
+  scale_y_continuous(position = "right") +
+  scale_fill_manual(values = c("alpha.1" = "black",
+                               "beta.1" = "darkgray",
+                               "beta.2" = "gray",
+                               "beta.3" = "lightgray",
+                               "beta.4" = gray(0.9)),
+                    labels = c("alpha.1" = "Habitat (α1)",
+                               "beta.1"  = "Habitat (β1)",
+                               "beta.2"  = "Site (β2)",
+                               "beta.3"  = "Stream (β3)",
+                               "beta.4"  = "β4")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5), #hjust 0=left, 0.5=center, 1=right
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    axis.text.y = element_blank(),
+    panel.grid = element_blank(),
+  )
+ggplot_bb.chuva
+ggsave(ggplot_bb.chuva, dpi = 300, filename = "res_ms/fig-bb.chuva.png")
+
+# ca.seco (C) #ca.seco(C) (m_cont_ca.seco)
+ca.gseco <- readRDS("res_ms/part-ca.gseco.rds")
+ggplot_ca.seco <- ggplot(ca.gseco, aes(fill = Component, y = Percentage, x = Type)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(title = "",
+       y = "% of the total diversity", #\n quebra de linha
+       x = "") +
+  scale_fill_manual(values = c("alpha.1" = "black",
+                               "beta.1" = "darkgray",
+                               "beta.2" = "gray",
+                               "beta.3" = "lightgray",
+                               "beta.4" = gray(0.9)),
+                    labels = c("alpha.1" = "Habitat (α1)",
+                               "beta.1"  = "Habitat (β1)",
+                               "beta.2"  = "Site (β2)",
+                               "beta.3"  = "Stream (β3)",
+                               "beta.4"  = "β4")) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    panel.grid = element_blank(),
+  )
+ggplot_ca.seco
+ggsave(ggplot_ca.seco, dpi = 300, filename = "res_ms/fig-ca.seco.png")
+
+# ca.chuva (D) #ca.chuva(D) (m_cont_ca.chuva)
+ca.gchuva <- readRDS("res_ms/part-ca.gchuva.rds")
+ggplot_ca.chuva <- ggplot(ca.gchuva, aes(fill = Component, y = Percentage, x = Type)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(title = "",
+       y = "Caiana stream",
+       x = "") +
+  scale_y_continuous(position = "right") +
+  scale_fill_manual(values = c("alpha.1" = "black",
+                               "beta.1" = "darkgray",
+                               "beta.2" = "gray",
+                               "beta.3" = "lightgray",
+                               "beta.4" = gray(0.9)),
+                    labels = c("alpha.1" = "Habitat (α1)",
+                               "beta.1"  = "Habitat (β1)",
+                               "beta.2"  = "Site (β2)",
+                               "beta.3"  = "Stream (β3)",
+                               "beta.4"  = "β4")) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    axis.text.y = element_blank(),
+    panel.grid = element_blank(),
+  )
+ggplot_ca.chuva
+ggsave(ggplot_ca.chuva, dpi = 300, filename = "res_ms/fig-ca.chuva.png")
+
+# PAINEL DE GRÁFICOS CHUVOSO E SECO
+
+library(gridExtra)
+
+# Organizar os gráficos em 2 linhas e 2 colunas
+painel_c_s <- grid.arrange(
+  ggplot_pt.seco, ggplot_pt.chuva, 
+  ncol = 1, nrow = 2
+)
+
+# Salvar o painel em alta resolução (300 DPI)
+ggsave(
+  filename = "res_ms/fig-painel_pt.cs.png",
+  plot = painel_c_s,
+  width = 4,
+  height = 8,
+  dpi = 300
+)
+
+# PAINEL DE GRÁFICOS POR RIO
+
+library(patchwork)
+
+shared_scale <- scale_fill_manual(
+  values = c("alpha.1" = "black",
+             "beta.1"  = "darkgray",
+             "beta.2"  = "gray",
+             "beta.3"  = "lightgray",
+             "beta.4"  = gray(0.9)),
+  labels = c("alpha.1" = "Habitat (α1)",
+             "beta.1"  = "Habitat (β1)",
+             "beta.2"  = "Site (β2)",
+             "beta.3"  = "Stream (β3)",
+             "beta.4"  = "β4"),
+  drop = TRUE)
+
+p1 <- ggplot_bb.seco  + shared_scale
+p2 <- ggplot_bb.chuva + shared_scale
+p3 <- ggplot_ca.seco  + shared_scale
+p4 <- ggplot_ca.chuva + shared_scale
+
+painel_rios <- (p1 + p2) / (p3 + p4) + 
+  plot_layout(guides = "collect") & 
+  theme(legend.position = "right",
+        legend.title = element_blank())
+
+painel_rios
+
+ggsave(
+  filename = "res_ms/fig-painel_pt.rios.png",
+  plot = painel_rios,
+  width = 7,
+  height = 8,
+  dpi = 300
+)
+```
+
+```{r GTTABLE_ADDPART_EXCLl}
+#| eval: false
+#| warning: false
+#| message: false
+#| results: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Additive partitioning data table" 
+
+#TABELA DE PARTIÇÃO----
+
+#CRIANDO UMA FUNÇÃO DE EXTRAÇÃO
+
+extrair_linha_particao <- function(part_obj, sistema, periodo) {
+  
+  mapa_componentes <- c(
+    "alpha.1" = "α1 (Habitat)",
+    "alpha.2" = "α2 (Site)",
+    "alpha.3" = "α3 (Stream)",
+    "beta.1"  = "β1 (Between habitats)",
+    "beta.2"  = "β2 (Between sites)",
+    "beta.3"  = "β3 (Between streams)",
+    "gamma"   = "γ (Total richness)"
+  )
+  
+  stat <- part_obj$statistic
+  comp_names <- names(stat)
+  
+  df <- data.frame(
+    Sistema    = sistema,
+    Periodo    = periodo,
+    Componente = ifelse(comp_names %in% names(mapa_componentes), 
+                        mapa_componentes[comp_names], comp_names),
+    Observado  = sprintf("%.2f%%", stat * 100),
+    Esperado   = sprintf("%.2f%%", part_obj$oecosimu$means * 100),
+    SES        = sprintf("%.2f", part_obj$oecosimu$z),
+    p_val      = part_obj$oecosimu$pval,
+    stringsAsFactors = FALSE
+  )
+  
+  df$p_valor <- ifelse(df$p_val <= 0.001, "< 0.001*", 
+                       ifelse(df$p_val <= 0.05, sprintf("%.3f*", df$p_val), 
+                              sprintf("%.3f", df$p_val)))
+  
+  return(df %>% select(-p_val))
+}
+
+#PROCESSAMENTO E RUNDOWN DOS OBJETOS ADIPART
+
+# Rodando o adipart para cada cenário e gerando os objetos corretos
+
+#pt.total (m_cont)
+#pt.seco (m_cont_s), pt.chuva (m_cont_c)
+#bb.seco(A) (m_cont_bb.seco), bb.chuva(B) (m_cont_bb.chuva)
+#ca.seco(C) (m_cont_ca.seco), ca.chuva(D) (m_cont_ca.chuva)
+
+part_p_pt.total <- adipart(y = m_cont, x = pt.total, index = "richness", relative = TRUE,
+                           weights = "unif", nsimul = 999)
+
+set.seed(666)
+part_p_pt.seco <- adipart(y = m_cont_s,  x = pt.seco, index = "richness", relative = TRUE,
+                          weights = "unif", nsimul = 999)
+part_p_pt.chuva <- adipart(y = m_cont_c,  x = pt.chuva, index = "richness", relative = TRUE,
+                          weights = "unif", nsimul = 999)
+
+part_p_bb.seco <- adipart(y = m_cont_bb.seco,  x = bb.seco, index = "richness", relative = TRUE,
+                          weights = "unif", nsimul = 999)
+part_p_bb.chuva <- adipart(y = m_cont_bb.chuva,  x = bb.chuva, index = "richness", relative = TRUE,
+                          weights = "unif", nsimul = 999)
+
+part_p_ca.seco <- adipart(y = m_cont_ca.seco,  x = ca.seco, index = "richness", relative = TRUE,
+                          weights = "unif", nsimul = 999)
+part_p_ca.chuva <- adipart(y = m_cont_ca.chuva,  x = ca.chuva, index = "richness", relative = TRUE,
+                          weights = "unif", nsimul = 999)
+
+part_p_pt.seco <- readRDS("res_ms/part_p_pt.seco.rds")
+
+
+part_p_pt.total <- readRDS("res_ms/part.p-pt.total.rds")
+part_p_pt.seco <- readRDS("res_ms/part.p-pt.seco.rds")
+part_p_pt.chuva <- readRDS("res_ms/part.p-pt.chuva.rds")
+part_p_bb.seco <- readRDS("res_ms/part.p-bb.seco.rds")
+part_p_bb.chuva <- readRDS("res_ms/part.p-bb.chuva.rds")
+part_p_ca.seco <- readRDS("res_ms/part.p-ca.seco.rds")
+part_p_ca.chuva <- readRDS("res_ms/part.p-ca.chuva.rds")
+
+# CONSOLIDAÇÃO DA TABELA
+
+tabela_raw <- rbind(
+  extrair_linha_particao(part_p_pt.seco, "Partição Total (PT)", "Seco"),
+  extrair_linha_particao(part_p_pt.chuva, "Partição Total (PT)", "Chuvoso"),
+  extrair_linha_particao(part_p_bb.seco, "Riacho Barro Branco (BB)", "Seco"),
+  extrair_linha_particao(part_p_bb.chuva, "Riacho Barro Branco (BB)", "Chuvoso"),
+  extrair_linha_particao(part_p_ca.seco, "Riacho Caiana (CA)", "Seco"),
+  extrair_linha_particao(part_p_ca.chuva, "Riacho Caiana (CA)", "Chuvoso")
+)
+
+# IMPRESSÃO DA TABELA GT
+
+tabela_final <- tabela_raw %>%
+  gt(groupname_col = "Sistema") %>%
+  cols_label(
+    Periodo    = "Período",
+    Componente = "Componente Hierárquico",
+    Observado  = "Observado (%)",
+    Esperado   = "Esperado (%)",
+    SES        = "SES",
+    p_valor    = "p-valor"
+  ) %>%
+  cols_align(
+    align = "center",
+    columns = c("Periodo", "Observado", "Esperado", "SES", "p_valor")
+  )
+tabela_final
+
+# Formatar nomes das colunas diretamente
+tabela_simples <- tabela_raw
+colnames(tabela_simples) <- c("Sistema", "Período", "Componente", "Obs (%)", "Esp (%)", "SES", "p-valor")
+
+# Imprimir no console
+print(tabela_simples, row.names = FALSE)
+
+# Exportando dados para Excel
+library(openxlsx)
+#write.xlsx(tabela_simples, file = "res_ms/tabela de partição.xlsx", rowNames = FALSE)
+wb <- loadWorkbook("res_ms/tabela de partição.xlsx")
+writeData(wb, sheet = "Sheet 1", x = tabela_simples)
+saveWorkbook(wb, "res_ms/tabela de partição.xlsx", overwrite = TRUE)
+
+# Tabela final ajustada no Excel
+library(readxl)
+part_gttable <- read_excel(
+  path  = "res_ms/tabela de partição.xlsx",
+  sheet = "tabela_final",
+  range = "A1:G28") #ajustar para o tamanho da tabela final 
+part_gttable
+library(gt)
+part_gttable <- gt(part_gttable)
+part_gttable <- sub_missing(part_gttable,
+                      columns = everything(), missing_text = "")
+part_gttable
+gtsave(part_gttable, "res_ms/gt-part_gttable_xlsx.html")
+saveRDS(part_gttable, "res_ms/gt-part_gttable_xlsx.rds")
+```
+
+# Discussão
+
+# Conclusões {.unnumbered}
+
+# Agradecimentos {.unnumbered}
+
+We are greatly indebted to the staff of the REBIO Guaribas for field work assistance. LCA is grateful to Programa de Pós-Graduação em Ecologia e Conservação (PPGEC-UEPB) and CAPES for scholarship granted. EGS, MMSM and MVBS are grateful to Programa de Iniciação Científica (PIBIC-UEPB) and CNPq for scholarship granted.
 
 # Authorship contribution statement {.unnumbered}
 
 Authorship of this paper is based on @credit2026.
 
-Author1: Writing – review & editing, Writing – original draft, Formal analysis, Data curation, Conceptualization.		
-Author2: Writing – review & editing, Data curation, Conceptualization.		
-Author3: Writing – review & editing, Formal analysis, Data curation, Conceptualization.
+Ellen Gomes da Silva: Data curation, Formal analysis, Investigation, Software, Visualization, Writing – original draft.
+
+Mayara Mirelly da Silva Monteiro: Data curation, Formal analysis, Investigation.
+
+Ludmilla Cavalcanti Antunes Lucena: Supervision, Validation.
+
+Thais Xavier de Melo: Supervision, Validation.
+
+Elvio Sergio Figueredo Medeiros: Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration, Resources, Software, Supervision, Validation, Visualization, Writing – original draft, Writing – review & editing.
 
 # Ethical approval {.unnumbered}
 
-This study did not require ethical approval as it did not involve human participants or sensitive data. Field surveys were conducted based on collection permit number (IEF-10327-6 and SISBIO-10.635-7).
+Activities inside the REBIO Guaribas were authorized by the Instituto Chico Mendes de Conservação da Biodiversidade (license no. SISBIO-89415-1, SISBIO-89429-2 and SISBIO-89415-2).
+
+# Declaration of generative AI and AI-assisted technologies in the manuscript preparation process {.unnumbered}
+
+During the preparation of this manuscript, the authors used ChatGPT (OpenAI) to assist with English language editing and improve the clarity and fluency of the writing. No AI was used for data analysis, interpretation, or generation of scientific conclusions. The authors carefully reviewed and revised all AI-generated suggestions and take full responsibility for the accuracy and content of the final manuscript [@cnpq2026].
 
 # References {.unnumbered}
 
@@ -135,11 +3187,120 @@ This study did not require ethical approval as it did not involve human particip
 
 # Figures and Tables {.unnumbered}
 
+@fig-mapa: Location of sampling sites along the Barro Branco Stream (Mamanguape, PB) (Site 1 06°43'06"S and 35°10'54"W; Site 2 06°42'38"S and 35°10'38"W; Site 3 06°43'06"S and 35°10'54"W; Site 4 06°41'46"S and 35°10'36"W; Site 5 06°40'56"S and 35°10'27"; Site 6 06°40'18"S and 35°10'34"W).
+
+@fig-hab_PCA_rio: Principal Component Analysis (PCA) biplot of the sampling units (SUs) and environmental variables in the Barro Branco and Caiana streams during the study period, categorized by stream. Points represent the SUs, whereas vectors represent the environmental variables associated with habitat structure. Ellipses represent 95% confidence regions for the distribution of the groups of points, calculated based on the t-distribution. Only variables that contributed at least 20% to the axes are shown.
+
+@fig-hab_PCA_periodo: Principal Component Analysis (PCA) biplot of the sampling units (SUs) and environmental variables in the Barro Branco and Caiana streams during the study period, categorized by season. Points represent the SUs, whereas vectors represent the environmental variables associated with habitat structure. Ellipses represent 95% confidence regions for the distribution of the groups of points, calculated based on the t-distribution. Only variables that contributed at least 20% to the axes are shown.
+
+@fig-rare1: Individual-based extrapolation and rarefaction curves for the richness of resting stages of zooplanktonic taxa in each study stream. Shaded areas indicate 95% confidence intervals.
+
+@fig-upgma: Classification analysis (UPGMA using Bray-Curtis dissimilarity) of wetland macroinvertebrate samples obtained in a. permanent and b. intermitent wetlands. The first number of the sample label indicates the wetland. The second number indicates the habitat type (1=hydrophytes; 2=reed-like emergent plants; and 3=leafy emergent plants). The third number indicates the individual sweeps realized in each habitat (1–3)UPGMA Hierarchical flexible beta clustering (β = −0.25) based on Bray-Curtis distance of (a) macroinvertebrates and (b) Chironomidae in the Paraíba River during the 2015 wet season. Tag codes indicate different sections of the river: U = upper segment, M = middle segment, and T = Taperoá River segment. R = reaches (1–3), S = sites (1–3), and Hab = habitat types (1–3). Percent chaining \<4%.
+
+@fig-particao_cs: Observed and expected diversity, partitioned into one alpha and three beta components, expressed as percent of total species richness. Numbers indicate the proportion of randomized samples containing more species than the observed sample for each partition. α1: subsample species richness, β1: beta diversity among sub-samples; β2: beta diversity among pools or habitats within pool, and β3: beta diversity among river reaches.
+
+@fig-particao_rios: Observed and expected diversity, partitioned into one alpha and three beta components, expressed as percent of total species richness. Numbers indicate the proportion of randomized samples containing more species than the observed sample for each partition. α1: subsample species richness, β1: beta diversity among sub-samples; β2: beta diversity among pools or habitats within pool, and β3: beta diversity among river reaches.
+
+@tbl-hab_gttable: Environmental variables averaged for sampling sites (minimum-maximum) for the Barro Branco stream (Mamanguape, PB).
+
+@tbl-nutri_gttable: Nutrient concentration (μg L⁻¹) averaged for sampling sites (minimum-maximum) for the Barro Branco stream (Mamanguape, PB).
+
+@tbl-checklist_gttable: List of species and counts of zooplankton collected during the 2024 hydrological cycle.
+
+@tbl-part_gttable: Additive partitioning of zooplankton species richness ($\gamma$-diversity) into hierarchical alpha ($\alpha$) and beta ($\beta$) diversity components across sampling levels (expressed in percentage values). Shown are the observed diversity values, mean diversity values expected under the null model, standardized effect sizes (SES), and statistical significance (*P*-value). Numbers in ‘*P*-value’ column indicate the proportion of randomized samples containing more species than the observed sample for each partition. $\alpha_1$ (Habitat): Average species richness per habitat. $\beta_1$ (Habitat): Diversity turnover among habitats within a site. $\beta_2$ (Site): Diversity turnover among sampling sites within a stream. $\beta_3$ (Stream): Diversity turnover between streams.
+
 ## Figures {.unnumbered}
 
-![Etapas do desenvolvimento da pesquisa científica.](imagens/pesquisa_cientifica.jpg){#fig-pesquisa}
+@fig-mapa
+
+![Study area](imagens/Uso%20de%20Solo%20Rebio_en.png){#fig-mapa}
+
+@fig-hab_PCA_rio
+
+![Principal Component Analysis, streams](res_ms/fig-hab_PCA_rio.png){#fig-hab_PCA_rio}
+
+@fig-hab_PCA_periodo
+
+![Principal Component Analysis, seasons](res_ms/fig-hab_PCA_periodo.png){#fig-hab_PCA_periodo}
+
+@fig-rare1
+
+![Accumulation curves](res_ms/fig-rare1.png){#fig-rare1}
+
+@fig-upgma
+
+![UPGMA Classification](res_ms/fig-upgma.png){#fig-upgma}
+
+@fig-particao_cs
+
+![Partitioning plots season](res_ms/fig-painel_pt.cs.png){#fig-particao_cs}
+
+@fig-particao_rios
+
+![Partitioning plots stream](res_ms/fig-painel_pt.rios.png){#fig-particao_rios}
 
 ## Tables {.unnumbered}
+
+<details>
+
+<summary>@tbl-hab_gttable</summary>
+
+```{r tbl-hab_gttable}
+#| echo: false
+#| tbl-cap: "Environment data GT table."
+readRDS("res_ms/gt-hab_gttable_xlsx.rds")
+```
+
+</details>
+
+<details>
+
+<summary>@tbl-nutri_gttable</summary>
+
+```{r tbl-nutri_gttable}
+#| echo: false
+#| tbl-cap: "Nutrient concentrations at the sampling sites."
+readRDS("res_ms/gt-nutri_gttable_xlsx.rds")
+```
+
+</details>
+
+<details>
+
+<summary>@tbl-checklist_gttable</summary>
+
+```{r, tbl-checklist_gttable}
+#| echo: false
+#| tbl-cap: "Checklist of taxa GT table."
+readRDS("res_ms/gt-checklist_gttable_xlsx.rds")
+```
+
+</details>
+
+````{=html}
+<!--#
+<details>
+<summary>@tbl-spp_gttable</summary>
+```{r, tbl-spp_gttable}
+#| echo: false
+#| tbl-cap: "Density (ind/m^2^) taxa GT table."
+readRDS("res_ms/gt-spp_gttable_xlsx.rds")
+```
+</details>
+-->
+````
+
+<details>
+
+<summary>@tbl-part_gttable</summary>
+
+```{r, tbl-part_gttable}
+#| echo: false
+#| tbl-cap: "Partition data GT table."
+readRDS("res_ms/gt-part_gttable_xlsx.rds")
+```
+
+</details>
 
 \pagebreak
 \newpage
