@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Projeto Peixes do Parnaíba"
+  navbar:
+    left:
+    - href: index.qmd
+      text: DOC
+    - href: ms_partition.qmd
+      text: Manuscrito I
+    - href: ms_metacommunity.qmd
+      text: Manuscrito II
+    - href: script.qmd
+      text: Script
+    - href: about.qmd
+      text: Sobre esse MS
+#    - icon: file-pdf
+#      text: PDF
+#      href: index.pdf
+#    - icon: file-word
+#      text: MS Word
+#      href: index.docx
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-overflow: wrap
+    embed-resources: true
+    comments:
+      hypothesis: true
+
+execute: 
+  warning: false
+  error: false
+  message: false
+  echo: false
+  freeze: auto
+
+code-copy: true
+
+lang: "en-US"
